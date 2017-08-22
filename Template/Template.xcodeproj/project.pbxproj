@@ -12,6 +12,13 @@
 		18CC68E51F4C0F3900555058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CC68E31F4C0F3900555058 /* Main.storyboard */; };
 		18CC68E71F4C0F3900555058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CC68E61F4C0F3900555058 /* Assets.xcassets */; };
 		18CC68EA1F4C0F3900555058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CC68E81F4C0F3900555058 /* LaunchScreen.storyboard */; };
+		18CC68F51F4C0FF000555058 /* TemplateComputer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC68F41F4C0FF000555058 /* TemplateComputer.swift */; };
+		18CC68F71F4C10D400555058 /* UserComputer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC68F61F4C10D400555058 /* UserComputer.swift */; };
+		18CC68F91F4C118800555058 /* NationalComputer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC68F81F4C118800555058 /* NationalComputer.swift */; };
+		18CC68FB1F4C121B00555058 /* Test.mov in Resources */ = {isa = PBXBuildFile; fileRef = 18CC68FA1F4C121B00555058 /* Test.mov */; };
+		18CC68FD1F4C128000555058 /* AVPlayerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC68FC1F4C128000555058 /* AVPlayerDelegate.swift */; };
+		18CC68FF1F4C133000555058 /* TemplateAVPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC68FE1F4C133000555058 /* TemplateAVPlayer.swift */; };
+		18CC69011F4C149600555058 /* DefaultPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC69001F4C149600555058 /* DefaultPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		18CC68E61F4C0F3900555058 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18CC68E91F4C0F3900555058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18CC68EB1F4C0F3900555058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CC68F41F4C0FF000555058 /* TemplateComputer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateComputer.swift; sourceTree = "<group>"; };
+		18CC68F61F4C10D400555058 /* UserComputer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserComputer.swift; sourceTree = "<group>"; };
+		18CC68F81F4C118800555058 /* NationalComputer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NationalComputer.swift; sourceTree = "<group>"; };
+		18CC68FA1F4C121B00555058 /* Test.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Test.mov; sourceTree = "<group>"; };
+		18CC68FC1F4C128000555058 /* AVPlayerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPlayerDelegate.swift; sourceTree = "<group>"; };
+		18CC68FE1F4C133000555058 /* TemplateAVPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateAVPlayer.swift; sourceTree = "<group>"; };
+		18CC69001F4C149600555058 /* DefaultPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,45 @@
 		18CC68DE1F4C0F3900555058 /* Template */ = {
 			isa = PBXGroup;
 			children = (
+				18CC68F11F4C0FD000555058 /* Template */,
 				18CC68DF1F4C0F3900555058 /* AppDelegate.swift */,
 				18CC68E11F4C0F3900555058 /* ViewController.swift */,
 				18CC68E31F4C0F3900555058 /* Main.storyboard */,
 				18CC68E61F4C0F3900555058 /* Assets.xcassets */,
 				18CC68E81F4C0F3900555058 /* LaunchScreen.storyboard */,
+				18CC68FA1F4C121B00555058 /* Test.mov */,
 				18CC68EB1F4C0F3900555058 /* Info.plist */,
 			);
 			path = Template;
+			sourceTree = "<group>";
+		};
+		18CC68F11F4C0FD000555058 /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				18CC68F21F4C0FD000555058 /* Player */,
+				18CC68F31F4C0FD000555058 /* Simple */,
+			);
+			path = Template;
+			sourceTree = "<group>";
+		};
+		18CC68F21F4C0FD000555058 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				18CC68FC1F4C128000555058 /* AVPlayerDelegate.swift */,
+				18CC68FE1F4C133000555058 /* TemplateAVPlayer.swift */,
+				18CC69001F4C149600555058 /* DefaultPlayer.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		18CC68F31F4C0FD000555058 /* Simple */ = {
+			isa = PBXGroup;
+			children = (
+				18CC68F41F4C0FF000555058 /* TemplateComputer.swift */,
+				18CC68F61F4C10D400555058 /* UserComputer.swift */,
+				18CC68F81F4C118800555058 /* NationalComputer.swift */,
+			);
+			path = Simple;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CC68FB1F4C121B00555058 /* Test.mov in Resources */,
 				18CC68EA1F4C0F3900555058 /* LaunchScreen.storyboard in Resources */,
 				18CC68E71F4C0F3900555058 /* Assets.xcassets in Resources */,
 				18CC68E51F4C0F3900555058 /* Main.storyboard in Resources */,
@@ -136,8 +182,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CC69011F4C149600555058 /* DefaultPlayer.swift in Sources */,
 				18CC68E21F4C0F3900555058 /* ViewController.swift in Sources */,
+				18CC68F51F4C0FF000555058 /* TemplateComputer.swift in Sources */,
+				18CC68FD1F4C128000555058 /* AVPlayerDelegate.swift in Sources */,
+				18CC68F91F4C118800555058 /* NationalComputer.swift in Sources */,
+				18CC68FF1F4C133000555058 /* TemplateAVPlayer.swift in Sources */,
 				18CC68E01F4C0F3900555058 /* AppDelegate.swift in Sources */,
+				18CC68F71F4C10D400555058 /* UserComputer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

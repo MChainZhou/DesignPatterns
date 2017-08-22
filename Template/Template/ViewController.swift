@@ -7,19 +7,25 @@
 //
 
 import UIKit
+import AVFoundation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,AVPlayerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let url = Bundle.main.path(forResource: "Test", ofType: ".mov")
+        
+        
+        let avplayer = DefaultPlayer()
+        avplayer.play(controller: self, frame: self.view.bounds, url: url!)
+        avplayer.delegate = self
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func playerCell(status: AVPlayerItemStatus?) {
+        print("播放回调")
     }
-
 
 }
 
