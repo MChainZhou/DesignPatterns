@@ -16,6 +16,14 @@
 		18CC69271F4C24F700555058 /* ConcreteHandler1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC69261F4C24F700555058 /* ConcreteHandler1.swift */; };
 		18CC69291F4C256B00555058 /* ConcreteHandler2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC69281F4C256B00555058 /* ConcreteHandler2.swift */; };
 		18CC692B1F4C25B200555058 /* ConcreteHandler3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC692A1F4C25B200555058 /* ConcreteHandler3.swift */; };
+		18CC692E1F4C2A7000555058 /* AbsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC692D1F4C2A7000555058 /* AbsHandler.swift */; };
+		18CC69301F4C2B2700555058 /* ConcreteRequest1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC692F1F4C2B2700555058 /* ConcreteRequest1.swift */; };
+		18CC69321F4C2B6F00555058 /* ConcreteRequest2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC69311F4C2B6F00555058 /* ConcreteRequest2.swift */; };
+		18CC69341F4C2BA600555058 /* AbsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC69331F4C2BA600555058 /* AbsRequest.swift */; };
+		18CC69361F4C2BCD00555058 /* ConcreteRequset3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC69351F4C2BCD00555058 /* ConcreteRequset3.swift */; };
+		18CC693A1F4C2D3600555058 /* AbsConcreteHandler1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC69391F4C2D3600555058 /* AbsConcreteHandler1.swift */; };
+		18CC693C1F4C2DB300555058 /* AbsConcreteHandler2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC693B1F4C2DB300555058 /* AbsConcreteHandler2.swift */; };
+		18CC693E1F4C2DEE00555058 /* AbsConcreteHandler3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC693D1F4C2DEE00555058 /* AbsConcreteHandler3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +38,14 @@
 		18CC69261F4C24F700555058 /* ConcreteHandler1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcreteHandler1.swift; sourceTree = "<group>"; };
 		18CC69281F4C256B00555058 /* ConcreteHandler2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcreteHandler2.swift; sourceTree = "<group>"; };
 		18CC692A1F4C25B200555058 /* ConcreteHandler3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcreteHandler3.swift; sourceTree = "<group>"; };
+		18CC692D1F4C2A7000555058 /* AbsHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbsHandler.swift; sourceTree = "<group>"; };
+		18CC692F1F4C2B2700555058 /* ConcreteRequest1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcreteRequest1.swift; sourceTree = "<group>"; };
+		18CC69311F4C2B6F00555058 /* ConcreteRequest2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcreteRequest2.swift; sourceTree = "<group>"; };
+		18CC69331F4C2BA600555058 /* AbsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbsRequest.swift; sourceTree = "<group>"; };
+		18CC69351F4C2BCD00555058 /* ConcreteRequset3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcreteRequset3.swift; sourceTree = "<group>"; };
+		18CC69391F4C2D3600555058 /* AbsConcreteHandler1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbsConcreteHandler1.swift; sourceTree = "<group>"; };
+		18CC693B1F4C2DB300555058 /* AbsConcreteHandler2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbsConcreteHandler2.swift; sourceTree = "<group>"; };
+		18CC693D1F4C2DEE00555058 /* AbsConcreteHandler3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbsConcreteHandler3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +113,9 @@
 		18CC69221F4C23CD00555058 /* Simple2 */ = {
 			isa = PBXGroup;
 			children = (
+				18CC692C1F4C2A5C00555058 /* impl */,
+				18CC692D1F4C2A7000555058 /* AbsHandler.swift */,
+				18CC69331F4C2BA600555058 /* AbsRequest.swift */,
 			);
 			path = Simple2;
 			sourceTree = "<group>";
@@ -106,6 +125,19 @@
 			children = (
 			);
 			path = Simple3;
+			sourceTree = "<group>";
+		};
+		18CC692C1F4C2A5C00555058 /* impl */ = {
+			isa = PBXGroup;
+			children = (
+				18CC692F1F4C2B2700555058 /* ConcreteRequest1.swift */,
+				18CC69311F4C2B6F00555058 /* ConcreteRequest2.swift */,
+				18CC69351F4C2BCD00555058 /* ConcreteRequset3.swift */,
+				18CC69391F4C2D3600555058 /* AbsConcreteHandler1.swift */,
+				18CC693B1F4C2DB300555058 /* AbsConcreteHandler2.swift */,
+				18CC693D1F4C2DEE00555058 /* AbsConcreteHandler3.swift */,
+			);
+			path = impl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,11 +212,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CC69321F4C2B6F00555058 /* ConcreteRequest2.swift in Sources */,
 				18CC69251F4C249600555058 /* Handler.swift in Sources */,
+				18CC692E1F4C2A7000555058 /* AbsHandler.swift in Sources */,
+				18CC693C1F4C2DB300555058 /* AbsConcreteHandler2.swift in Sources */,
 				18CC69291F4C256B00555058 /* ConcreteHandler2.swift in Sources */,
 				18CC69111F4C239600555058 /* ViewController.swift in Sources */,
 				18CC690F1F4C239600555058 /* AppDelegate.swift in Sources */,
 				18CC69271F4C24F700555058 /* ConcreteHandler1.swift in Sources */,
+				18CC69301F4C2B2700555058 /* ConcreteRequest1.swift in Sources */,
+				18CC693A1F4C2D3600555058 /* AbsConcreteHandler1.swift in Sources */,
+				18CC69361F4C2BCD00555058 /* ConcreteRequset3.swift in Sources */,
+				18CC69341F4C2BA600555058 /* AbsRequest.swift in Sources */,
+				18CC693E1F4C2DEE00555058 /* AbsConcreteHandler3.swift in Sources */,
 				18CC692B1F4C25B200555058 /* ConcreteHandler3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
