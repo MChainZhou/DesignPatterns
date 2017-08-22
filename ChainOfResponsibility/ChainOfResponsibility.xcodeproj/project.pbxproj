@@ -24,6 +24,11 @@
 		18CC693A1F4C2D3600555058 /* AbsConcreteHandler1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC69391F4C2D3600555058 /* AbsConcreteHandler1.swift */; };
 		18CC693C1F4C2DB300555058 /* AbsConcreteHandler2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC693B1F4C2DB300555058 /* AbsConcreteHandler2.swift */; };
 		18CC693E1F4C2DEE00555058 /* AbsConcreteHandler3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC693D1F4C2DEE00555058 /* AbsConcreteHandler3.swift */; };
+		18CC69411F4C326A00555058 /* ExpenseAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC69401F4C326A00555058 /* ExpenseAccount.swift */; };
+		18CC69431F4C335F00555058 /* Leader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC69421F4C335F00555058 /* Leader.swift */; };
+		18CC69451F4C34C300555058 /* GroupLeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC69441F4C34C300555058 /* GroupLeader.swift */; };
+		18CC69471F4C34F900555058 /* ManagerLeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC69461F4C34F900555058 /* ManagerLeader.swift */; };
+		18CC69491F4C352200555058 /* BossLeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC69481F4C352200555058 /* BossLeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +51,11 @@
 		18CC69391F4C2D3600555058 /* AbsConcreteHandler1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbsConcreteHandler1.swift; sourceTree = "<group>"; };
 		18CC693B1F4C2DB300555058 /* AbsConcreteHandler2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbsConcreteHandler2.swift; sourceTree = "<group>"; };
 		18CC693D1F4C2DEE00555058 /* AbsConcreteHandler3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbsConcreteHandler3.swift; sourceTree = "<group>"; };
+		18CC69401F4C326A00555058 /* ExpenseAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseAccount.swift; sourceTree = "<group>"; };
+		18CC69421F4C335F00555058 /* Leader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Leader.swift; sourceTree = "<group>"; };
+		18CC69441F4C34C300555058 /* GroupLeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupLeader.swift; sourceTree = "<group>"; };
+		18CC69461F4C34F900555058 /* ManagerLeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerLeader.swift; sourceTree = "<group>"; };
+		18CC69481F4C352200555058 /* BossLeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BossLeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +133,9 @@
 		18CC69231F4C23CD00555058 /* Simple3 */ = {
 			isa = PBXGroup;
 			children = (
+				18CC693F1F4C324700555058 /* impl */,
+				18CC69401F4C326A00555058 /* ExpenseAccount.swift */,
+				18CC69421F4C335F00555058 /* Leader.swift */,
 			);
 			path = Simple3;
 			sourceTree = "<group>";
@@ -136,6 +149,16 @@
 				18CC69391F4C2D3600555058 /* AbsConcreteHandler1.swift */,
 				18CC693B1F4C2DB300555058 /* AbsConcreteHandler2.swift */,
 				18CC693D1F4C2DEE00555058 /* AbsConcreteHandler3.swift */,
+			);
+			path = impl;
+			sourceTree = "<group>";
+		};
+		18CC693F1F4C324700555058 /* impl */ = {
+			isa = PBXGroup;
+			children = (
+				18CC69441F4C34C300555058 /* GroupLeader.swift */,
+				18CC69461F4C34F900555058 /* ManagerLeader.swift */,
+				18CC69481F4C352200555058 /* BossLeader.swift */,
 			);
 			path = impl;
 			sourceTree = "<group>";
@@ -212,20 +235,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CC69471F4C34F900555058 /* ManagerLeader.swift in Sources */,
 				18CC69321F4C2B6F00555058 /* ConcreteRequest2.swift in Sources */,
 				18CC69251F4C249600555058 /* Handler.swift in Sources */,
 				18CC692E1F4C2A7000555058 /* AbsHandler.swift in Sources */,
 				18CC693C1F4C2DB300555058 /* AbsConcreteHandler2.swift in Sources */,
+				18CC69431F4C335F00555058 /* Leader.swift in Sources */,
 				18CC69291F4C256B00555058 /* ConcreteHandler2.swift in Sources */,
 				18CC69111F4C239600555058 /* ViewController.swift in Sources */,
 				18CC690F1F4C239600555058 /* AppDelegate.swift in Sources */,
 				18CC69271F4C24F700555058 /* ConcreteHandler1.swift in Sources */,
+				18CC69491F4C352200555058 /* BossLeader.swift in Sources */,
 				18CC69301F4C2B2700555058 /* ConcreteRequest1.swift in Sources */,
+				18CC69451F4C34C300555058 /* GroupLeader.swift in Sources */,
 				18CC693A1F4C2D3600555058 /* AbsConcreteHandler1.swift in Sources */,
 				18CC69361F4C2BCD00555058 /* ConcreteRequset3.swift in Sources */,
 				18CC69341F4C2BA600555058 /* AbsRequest.swift in Sources */,
 				18CC693E1F4C2DEE00555058 /* AbsConcreteHandler3.swift in Sources */,
 				18CC692B1F4C25B200555058 /* ConcreteHandler3.swift in Sources */,
+				18CC69411F4C326A00555058 /* ExpenseAccount.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
