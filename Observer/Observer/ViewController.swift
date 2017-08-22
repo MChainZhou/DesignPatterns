@@ -12,14 +12,17 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let observable = WxEmsObservable()
+        
+        observable.addObserver(o: AndyObserver())
+        observable.addObserver(o: NickObserver())
+        
+        observable.setNews(n: "好消息！好消息！")
+        observable.notify()
+        observable.notify()
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 

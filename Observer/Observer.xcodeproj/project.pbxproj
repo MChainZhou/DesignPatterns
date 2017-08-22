@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18CC68CE1F4C08D700555058 /* WxEmsObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC68CD1F4C08D700555058 /* WxEmsObservable.swift */; };
+		18CC68D01F4C098D00555058 /* AndyObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC68CF1F4C098D00555058 /* AndyObserver.swift */; };
+		18CC68D21F4C09DE00555058 /* NickObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC68D11F4C09DE00555058 /* NickObserver.swift */; };
 		18DD6A6A1F4BCD87003DFECA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DD6A691F4BCD87003DFECA /* AppDelegate.swift */; };
 		18DD6A6C1F4BCD87003DFECA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DD6A6B1F4BCD87003DFECA /* ViewController.swift */; };
 		18DD6A6F1F4BCD87003DFECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DD6A6D1F4BCD87003DFECA /* Main.storyboard */; };
 		18DD6A711F4BCD87003DFECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DD6A701F4BCD87003DFECA /* Assets.xcassets */; };
 		18DD6A741F4BCD87003DFECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DD6A721F4BCD87003DFECA /* LaunchScreen.storyboard */; };
+		18DD6A7E1F4BD1A9003DFECA /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DD6A7D1F4BD1A9003DFECA /* Observer.swift */; };
+		18DD6A801F4BD216003DFECA /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DD6A7F1F4BD216003DFECA /* Observable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18CC68CD1F4C08D700555058 /* WxEmsObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WxEmsObservable.swift; sourceTree = "<group>"; };
+		18CC68CF1F4C098D00555058 /* AndyObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AndyObserver.swift; sourceTree = "<group>"; };
+		18CC68D11F4C09DE00555058 /* NickObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NickObserver.swift; sourceTree = "<group>"; };
 		18DD6A661F4BCD87003DFECA /* Observer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Observer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DD6A691F4BCD87003DFECA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18DD6A6B1F4BCD87003DFECA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,8 @@
 		18DD6A701F4BCD87003DFECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18DD6A731F4BCD87003DFECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18DD6A751F4BCD87003DFECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DD6A7D1F4BD1A9003DFECA /* Observer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		18DD6A7F1F4BD216003DFECA /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 		18DD6A681F4BCD87003DFECA /* Observer */ = {
 			isa = PBXGroup;
 			children = (
+				18DD6A7B1F4BD18C003DFECA /* Observer */,
 				18DD6A691F4BCD87003DFECA /* AppDelegate.swift */,
 				18DD6A6B1F4BCD87003DFECA /* ViewController.swift */,
 				18DD6A6D1F4BCD87003DFECA /* Main.storyboard */,
@@ -62,6 +73,26 @@
 				18DD6A751F4BCD87003DFECA /* Info.plist */,
 			);
 			path = Observer;
+			sourceTree = "<group>";
+		};
+		18DD6A7B1F4BD18C003DFECA /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				18DD6A7C1F4BD18C003DFECA /* Impl */,
+				18DD6A7D1F4BD1A9003DFECA /* Observer.swift */,
+				18DD6A7F1F4BD216003DFECA /* Observable.swift */,
+			);
+			path = Observer;
+			sourceTree = "<group>";
+		};
+		18DD6A7C1F4BD18C003DFECA /* Impl */ = {
+			isa = PBXGroup;
+			children = (
+				18CC68CD1F4C08D700555058 /* WxEmsObservable.swift */,
+				18CC68CF1F4C098D00555058 /* AndyObserver.swift */,
+				18CC68D11F4C09DE00555058 /* NickObserver.swift */,
+			);
+			path = Impl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +167,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DD6A801F4BD216003DFECA /* Observable.swift in Sources */,
 				18DD6A6C1F4BCD87003DFECA /* ViewController.swift in Sources */,
+				18CC68D21F4C09DE00555058 /* NickObserver.swift in Sources */,
+				18DD6A7E1F4BD1A9003DFECA /* Observer.swift in Sources */,
+				18CC68D01F4C098D00555058 /* AndyObserver.swift in Sources */,
+				18CC68CE1F4C08D700555058 /* WxEmsObservable.swift in Sources */,
 				18DD6A6A1F4BCD87003DFECA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +337,7 @@
 				18DD6A7A1F4BCD87003DFECA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
