@@ -12,6 +12,10 @@
 		18CC69141F4C239600555058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CC69121F4C239600555058 /* Main.storyboard */; };
 		18CC69161F4C239600555058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CC69151F4C239600555058 /* Assets.xcassets */; };
 		18CC69191F4C239600555058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CC69171F4C239600555058 /* LaunchScreen.storyboard */; };
+		18CC69251F4C249600555058 /* Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC69241F4C249600555058 /* Handler.swift */; };
+		18CC69271F4C24F700555058 /* ConcreteHandler1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC69261F4C24F700555058 /* ConcreteHandler1.swift */; };
+		18CC69291F4C256B00555058 /* ConcreteHandler2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC69281F4C256B00555058 /* ConcreteHandler2.swift */; };
+		18CC692B1F4C25B200555058 /* ConcreteHandler3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC692A1F4C25B200555058 /* ConcreteHandler3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		18CC69151F4C239600555058 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18CC69181F4C239600555058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18CC691A1F4C239600555058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CC69241F4C249600555058 /* Handler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Handler.swift; sourceTree = "<group>"; };
+		18CC69261F4C24F700555058 /* ConcreteHandler1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcreteHandler1.swift; sourceTree = "<group>"; };
+		18CC69281F4C256B00555058 /* ConcreteHandler2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcreteHandler2.swift; sourceTree = "<group>"; };
+		18CC692A1F4C25B200555058 /* ConcreteHandler3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcreteHandler3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +86,10 @@
 		18CC69211F4C23CD00555058 /* Simple1 */ = {
 			isa = PBXGroup;
 			children = (
+				18CC69241F4C249600555058 /* Handler.swift */,
+				18CC69261F4C24F700555058 /* ConcreteHandler1.swift */,
+				18CC69281F4C256B00555058 /* ConcreteHandler2.swift */,
+				18CC692A1F4C25B200555058 /* ConcreteHandler3.swift */,
 			);
 			path = Simple1;
 			sourceTree = "<group>";
@@ -168,8 +180,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CC69251F4C249600555058 /* Handler.swift in Sources */,
+				18CC69291F4C256B00555058 /* ConcreteHandler2.swift in Sources */,
 				18CC69111F4C239600555058 /* ViewController.swift in Sources */,
 				18CC690F1F4C239600555058 /* AppDelegate.swift in Sources */,
+				18CC69271F4C24F700555058 /* ConcreteHandler1.swift in Sources */,
+				18CC692B1F4C25B200555058 /* ConcreteHandler3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

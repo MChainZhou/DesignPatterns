@@ -12,7 +12,15 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let handeler1 = ConcreteHandler1()
+        let handeler2 = ConcreteHandler2()
+        let handeler3 = ConcreteHandler3()
+        
+        handeler1.nextHandler = handeler2
+        handeler2.nextHandler = handeler3
+        
+        handeler1.handlerRequest(obj: "ConcreteHandler3");
+        
     }
 
     override func didReceiveMemoryWarning() {
