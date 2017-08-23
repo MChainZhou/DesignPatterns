@@ -13,12 +13,30 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+//        //案例一
+//        let concreteCommand = ConcreteCommand(receiver: Receiver())
+//        
+//        let invoker = Invoker(command: concreteCommand)
+//        
+//        invoker.action()
         
-        let concreteCommand = ConcreteCommand(receiver: Receiver())
         
-        let invoker = Invoker(command: concreteCommand)
+        //案例二
         
-        invoker.action()
+        let computer = MacComputer()
+        
+        let startup = MacStartupCommand(computer: computer)
+        let shutdown = MacShutdownCommand(computer: computer)
+        
+        let invoker = MacInvoker(startupCommand: startup, shutCommand: shutdown)
+        
+        invoker.startup()
+        
+        invoker.shutdown()
+        
+        
+        
+        
         
         
     }
