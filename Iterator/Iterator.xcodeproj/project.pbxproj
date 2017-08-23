@@ -17,6 +17,13 @@
 		1806B6F91F4D202B00E31CAC /* AnyIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B6F81F4D202B00E31CAC /* AnyIterator.swift */; };
 		1806B6FB1F4D221C00E31CAC /* AggregateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B6FA1F4D221C00E31CAC /* AggregateProtocol.swift */; };
 		1806B6FD1F4D22CA00E31CAC /* ConcreteAggregete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B6FC1F4D22CA00E31CAC /* ConcreteAggregete.swift */; };
+		1806B7021F4D268300E31CAC /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B7011F4D268300E31CAC /* OrderModel.swift */; };
+		1806B7081F4D283A00E31CAC /* OrderIteratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B7071F4D283A00E31CAC /* OrderIteratorProtocol.swift */; };
+		1806B70A1F4D2A2000E31CAC /* OrderIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B7091F4D2A2000E31CAC /* OrderIterator.swift */; };
+		1806B70C1F4D2AB700E31CAC /* TianMaoIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B70B1F4D2AB700E31CAC /* TianMaoIterator.swift */; };
+		1806B70E1F4D2D2B00E31CAC /* TianMaoAggregate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B70D1F4D2D2B00E31CAC /* TianMaoAggregate.swift */; };
+		1806B7101F4D2D9D00E31CAC /* TanZhouIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B70F1F4D2D9D00E31CAC /* TanZhouIterator.swift */; };
+		1806B7121F4D2E3700E31CAC /* TanZhouAggregate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B7111F4D2E3700E31CAC /* TanZhouAggregate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +39,13 @@
 		1806B6F81F4D202B00E31CAC /* AnyIterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyIterator.swift; sourceTree = "<group>"; };
 		1806B6FA1F4D221C00E31CAC /* AggregateProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AggregateProtocol.swift; sourceTree = "<group>"; };
 		1806B6FC1F4D22CA00E31CAC /* ConcreteAggregete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcreteAggregete.swift; sourceTree = "<group>"; };
+		1806B7011F4D268300E31CAC /* OrderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
+		1806B7071F4D283A00E31CAC /* OrderIteratorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderIteratorProtocol.swift; sourceTree = "<group>"; };
+		1806B7091F4D2A2000E31CAC /* OrderIterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderIterator.swift; sourceTree = "<group>"; };
+		1806B70B1F4D2AB700E31CAC /* TianMaoIterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TianMaoIterator.swift; sourceTree = "<group>"; };
+		1806B70D1F4D2D2B00E31CAC /* TianMaoAggregate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TianMaoAggregate.swift; sourceTree = "<group>"; };
+		1806B70F1F4D2D9D00E31CAC /* TanZhouIterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TanZhouIterator.swift; sourceTree = "<group>"; };
+		1806B7111F4D2E3700E31CAC /* TanZhouAggregate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TanZhouAggregate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +101,8 @@
 		1806B6F21F4D1E8C00E31CAC /* Order */ = {
 			isa = PBXGroup;
 			children = (
+				1806B6FE1F4D267400E31CAC /* Model */,
+				1806B7001F4D267400E31CAC /* Optimize */,
 			);
 			path = Order;
 			sourceTree = "<group>";
@@ -101,6 +117,27 @@
 				1806B6FC1F4D22CA00E31CAC /* ConcreteAggregete.swift */,
 			);
 			path = Simple;
+			sourceTree = "<group>";
+		};
+		1806B6FE1F4D267400E31CAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1806B7011F4D268300E31CAC /* OrderModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1806B7001F4D267400E31CAC /* Optimize */ = {
+			isa = PBXGroup;
+			children = (
+				1806B7071F4D283A00E31CAC /* OrderIteratorProtocol.swift */,
+				1806B7091F4D2A2000E31CAC /* OrderIterator.swift */,
+				1806B70B1F4D2AB700E31CAC /* TianMaoIterator.swift */,
+				1806B70D1F4D2D2B00E31CAC /* TianMaoAggregate.swift */,
+				1806B70F1F4D2D9D00E31CAC /* TanZhouIterator.swift */,
+				1806B7111F4D2E3700E31CAC /* TanZhouAggregate.swift */,
+			);
+			path = Optimize;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,9 +212,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1806B7101F4D2D9D00E31CAC /* TanZhouIterator.swift in Sources */,
+				1806B7121F4D2E3700E31CAC /* TanZhouAggregate.swift in Sources */,
+				1806B70A1F4D2A2000E31CAC /* OrderIterator.swift in Sources */,
+				1806B7021F4D268300E31CAC /* OrderModel.swift in Sources */,
 				1806B6F51F4D1EB000E31CAC /* IteratorProtocol.swift in Sources */,
 				1806B6E21F4D1E2500E31CAC /* ViewController.swift in Sources */,
+				1806B70E1F4D2D2B00E31CAC /* TianMaoAggregate.swift in Sources */,
+				1806B70C1F4D2AB700E31CAC /* TianMaoIterator.swift in Sources */,
 				1806B6F71F4D1F4900E31CAC /* ConcreteIterator.swift in Sources */,
+				1806B7081F4D283A00E31CAC /* OrderIteratorProtocol.swift in Sources */,
 				1806B6FB1F4D221C00E31CAC /* AggregateProtocol.swift in Sources */,
 				1806B6F91F4D202B00E31CAC /* AnyIterator.swift in Sources */,
 				1806B6FD1F4D22CA00E31CAC /* ConcreteAggregete.swift in Sources */,
