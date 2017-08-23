@@ -29,6 +29,8 @@
 		1806B75A1F4D770B00E31CAC /* TMTransformCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B7591F4D770B00E31CAC /* TMTransformCommand.swift */; };
 		1806B75E1F4D777200E31CAC /* Operation_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B75D1F4D777200E31CAC /* Operation_1.swift */; };
 		1806B7601F4D7A5300E31CAC /* Operation_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B75F1F4D7A5300E31CAC /* Operation_2.swift */; };
+		1806B7621F4D815200E31CAC /* DynamicCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B7611F4D815200E31CAC /* DynamicCommand.swift */; };
+		1806B7641F4D824900E31CAC /* Operation_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B7631F4D824900E31CAC /* Operation_3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		1806B7591F4D770B00E31CAC /* TMTransformCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMTransformCommand.swift; sourceTree = "<group>"; };
 		1806B75D1F4D777200E31CAC /* Operation_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operation_1.swift; sourceTree = "<group>"; };
 		1806B75F1F4D7A5300E31CAC /* Operation_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operation_2.swift; sourceTree = "<group>"; };
+		1806B7611F4D815200E31CAC /* DynamicCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicCommand.swift; sourceTree = "<group>"; };
+		1806B7631F4D824900E31CAC /* Operation_3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operation_3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +174,8 @@
 		1806B74B1F4D73DC00E31CAC /* Simple_3 */ = {
 			isa = PBXGroup;
 			children = (
+				1806B7611F4D815200E31CAC /* DynamicCommand.swift */,
+				1806B7631F4D824900E31CAC /* Operation_3.swift */,
 			);
 			path = Simple_3;
 			sourceTree = "<group>";
@@ -277,11 +283,13 @@
 				1806B75E1F4D777200E31CAC /* Operation_1.swift in Sources */,
 				1806B7521F4D74CE00E31CAC /* TMCommandProtocol.swift in Sources */,
 				1806B7371F4D617100E31CAC /* CommandProtocol.swift in Sources */,
+				1806B7641F4D824900E31CAC /* Operation_3.swift in Sources */,
 				1806B7601F4D7A5300E31CAC /* Operation_2.swift in Sources */,
 				1806B73B1F4D629600E31CAC /* Invoker.swift in Sources */,
 				1806B7391F4D61C000E31CAC /* ConcreteCommand.swift in Sources */,
 				1806B7241F4D5D1C00E31CAC /* ViewController.swift in Sources */,
 				1806B7581F4D76C200E31CAC /* TMButtomCommand.swift in Sources */,
+				1806B7621F4D815200E31CAC /* DynamicCommand.swift in Sources */,
 				1806B7401F4D688B00E31CAC /* ComputerCommand.swift in Sources */,
 				1806B7221F4D5D1C00E31CAC /* AppDelegate.swift in Sources */,
 				1806B7501F4D73F200E31CAC /* TetrisMachine.swift in Sources */,
