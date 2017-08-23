@@ -12,14 +12,22 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let array = ConcreteAggregete<String>()
+        array.add(obj: "张三")
+        array.add(obj: "李四")
+        array.add(obj: "王五")
+        array.add(obj: "赵六")
+        array.add(obj: "钱七")
+        
+        let iterator = array.itertor()
+        
+        
+        while iterator.hasNext() {
+            print(iterator.next() ?? "");
+        }
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 
