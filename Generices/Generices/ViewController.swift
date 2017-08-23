@@ -12,7 +12,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        //协议泛型
+        let array = ConcreteArray<Int>()
+        
+        array.add(obj: 10)
+        array.add(obj: 20)
+        array.forEach()
     }
 
     override func didReceiveMemoryWarning() {
