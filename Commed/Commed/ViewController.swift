@@ -38,7 +38,19 @@ class ViewController: UIViewController {
         
         
         
-        //
+        //案例三：测试->基本命令模式
+        let tm = TetrisMachine()
+        
+        let leftCommand = TMLeftCommand(tm: tm)
+        let rightCommand = TMRightCommand(tm: tm)
+        let buttomCommand = TMButtomCommand(tm: tm)
+        let transformCommand = TMTransformCommand(tm: tm)
+        
+        let button = Operation_2(leftCommand: leftCommand, rightCommand: rightCommand, buttomCommand: buttomCommand, transformCommand: transformCommand, tm: tm)
+        button.toLeft()
+        button.toRight()
+        button.fastToButtom()
+        button.updo()
     }
 
 
