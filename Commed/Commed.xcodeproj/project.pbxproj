@@ -21,6 +21,13 @@
 		1806B7421F4D68DC00E31CAC /* MacStartupCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B7411F4D68DC00E31CAC /* MacStartupCommand.swift */; };
 		1806B7441F4D698300E31CAC /* MacShutdownCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B7431F4D698300E31CAC /* MacShutdownCommand.swift */; };
 		1806B7461F4D69C400E31CAC /* MacInvoker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B7451F4D69C400E31CAC /* MacInvoker.swift */; };
+		1806B7501F4D73F200E31CAC /* TetrisMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B74F1F4D73F200E31CAC /* TetrisMachine.swift */; };
+		1806B7521F4D74CE00E31CAC /* TMCommandProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B7511F4D74CE00E31CAC /* TMCommandProtocol.swift */; };
+		1806B7541F4D751A00E31CAC /* TMLeftCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B7531F4D751A00E31CAC /* TMLeftCommand.swift */; };
+		1806B7561F4D759400E31CAC /* TMRightCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B7551F4D759400E31CAC /* TMRightCommand.swift */; };
+		1806B7581F4D76C200E31CAC /* TMButtomCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B7571F4D76C200E31CAC /* TMButtomCommand.swift */; };
+		1806B75A1F4D770B00E31CAC /* TMTransformCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B7591F4D770B00E31CAC /* TMTransformCommand.swift */; };
+		1806B75E1F4D777200E31CAC /* Operation_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806B75D1F4D777200E31CAC /* Operation_1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +47,13 @@
 		1806B7411F4D68DC00E31CAC /* MacStartupCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacStartupCommand.swift; sourceTree = "<group>"; };
 		1806B7431F4D698300E31CAC /* MacShutdownCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacShutdownCommand.swift; sourceTree = "<group>"; };
 		1806B7451F4D69C400E31CAC /* MacInvoker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacInvoker.swift; sourceTree = "<group>"; };
+		1806B74F1F4D73F200E31CAC /* TetrisMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TetrisMachine.swift; sourceTree = "<group>"; };
+		1806B7511F4D74CE00E31CAC /* TMCommandProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMCommandProtocol.swift; sourceTree = "<group>"; };
+		1806B7531F4D751A00E31CAC /* TMLeftCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMLeftCommand.swift; sourceTree = "<group>"; };
+		1806B7551F4D759400E31CAC /* TMRightCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMRightCommand.swift; sourceTree = "<group>"; };
+		1806B7571F4D76C200E31CAC /* TMButtomCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMButtomCommand.swift; sourceTree = "<group>"; };
+		1806B7591F4D770B00E31CAC /* TMTransformCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMTransformCommand.swift; sourceTree = "<group>"; };
+		1806B75D1F4D777200E31CAC /* Operation_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operation_1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +86,7 @@
 		1806B7201F4D5D1C00E31CAC /* Commed */ = {
 			isa = PBXGroup;
 			children = (
+				1806B7471F4D735A00E31CAC /* TetrisMachine */,
 				1806B73C1F4D67A700E31CAC /* Simple2 */,
 				1806B7331F4D609700E31CAC /* Simple */,
 				1806B7211F4D5D1C00E31CAC /* AppDelegate.swift */,
@@ -105,6 +120,76 @@
 				1806B7451F4D69C400E31CAC /* MacInvoker.swift */,
 			);
 			path = Simple2;
+			sourceTree = "<group>";
+		};
+		1806B7471F4D735A00E31CAC /* TetrisMachine */ = {
+			isa = PBXGroup;
+			children = (
+				1806B7481F4D73DC00E31CAC /* Recevice */,
+				1806B7491F4D73DC00E31CAC /* Simple_1 */,
+				1806B74A1F4D73DC00E31CAC /* Simple_2 */,
+				1806B74B1F4D73DC00E31CAC /* Simple_3 */,
+				1806B74C1F4D73DC00E31CAC /* Simple_4 */,
+				1806B74D1F4D73DC00E31CAC /* Simple_5 */,
+				1806B74E1F4D73DC00E31CAC /* Simple_6 */,
+			);
+			path = TetrisMachine;
+			sourceTree = "<group>";
+		};
+		1806B7481F4D73DC00E31CAC /* Recevice */ = {
+			isa = PBXGroup;
+			children = (
+				1806B74F1F4D73F200E31CAC /* TetrisMachine.swift */,
+			);
+			path = Recevice;
+			sourceTree = "<group>";
+		};
+		1806B7491F4D73DC00E31CAC /* Simple_1 */ = {
+			isa = PBXGroup;
+			children = (
+				1806B7511F4D74CE00E31CAC /* TMCommandProtocol.swift */,
+				1806B7531F4D751A00E31CAC /* TMLeftCommand.swift */,
+				1806B7551F4D759400E31CAC /* TMRightCommand.swift */,
+				1806B7571F4D76C200E31CAC /* TMButtomCommand.swift */,
+				1806B7591F4D770B00E31CAC /* TMTransformCommand.swift */,
+				1806B75D1F4D777200E31CAC /* Operation_1.swift */,
+			);
+			path = Simple_1;
+			sourceTree = "<group>";
+		};
+		1806B74A1F4D73DC00E31CAC /* Simple_2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Simple_2;
+			sourceTree = "<group>";
+		};
+		1806B74B1F4D73DC00E31CAC /* Simple_3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Simple_3;
+			sourceTree = "<group>";
+		};
+		1806B74C1F4D73DC00E31CAC /* Simple_4 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Simple_4;
+			sourceTree = "<group>";
+		};
+		1806B74D1F4D73DC00E31CAC /* Simple_5 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Simple_5;
+			sourceTree = "<group>";
+		};
+		1806B74E1F4D73DC00E31CAC /* Simple_6 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Simple_6;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,16 +264,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1806B75A1F4D770B00E31CAC /* TMTransformCommand.swift in Sources */,
 				1806B73E1F4D681D00E31CAC /* MacComputer.swift in Sources */,
 				1806B7421F4D68DC00E31CAC /* MacStartupCommand.swift in Sources */,
 				1806B7351F4D60B100E31CAC /* Receiver.swift in Sources */,
+				1806B7541F4D751A00E31CAC /* TMLeftCommand.swift in Sources */,
+				1806B7561F4D759400E31CAC /* TMRightCommand.swift in Sources */,
 				1806B7441F4D698300E31CAC /* MacShutdownCommand.swift in Sources */,
+				1806B75E1F4D777200E31CAC /* Operation_1.swift in Sources */,
+				1806B7521F4D74CE00E31CAC /* TMCommandProtocol.swift in Sources */,
 				1806B7371F4D617100E31CAC /* CommandProtocol.swift in Sources */,
 				1806B73B1F4D629600E31CAC /* Invoker.swift in Sources */,
 				1806B7391F4D61C000E31CAC /* ConcreteCommand.swift in Sources */,
 				1806B7241F4D5D1C00E31CAC /* ViewController.swift in Sources */,
+				1806B7581F4D76C200E31CAC /* TMButtomCommand.swift in Sources */,
 				1806B7401F4D688B00E31CAC /* ComputerCommand.swift in Sources */,
 				1806B7221F4D5D1C00E31CAC /* AppDelegate.swift in Sources */,
+				1806B7501F4D73F200E31CAC /* TetrisMachine.swift in Sources */,
 				1806B7461F4D69C400E31CAC /* MacInvoker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
