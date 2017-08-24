@@ -20,6 +20,16 @@
 		189D6EC51F4E6C150038FF32 /* StudentModel_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D6EC41F4E6C150038FF32 /* StudentModel_3.swift */; };
 		189D6EC71F4E6D560038FF32 /* StudentModel_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D6EC61F4E6D560038FF32 /* StudentModel_4.swift */; };
 		189D6EC91F4E6E000038FF32 /* TeacherModel_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D6EC81F4E6E000038FF32 /* TeacherModel_4.swift */; };
+		189D6ED11F4E74820038FF32 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D6ED01F4E74820038FF32 /* Order.swift */; };
+		189D6ED31F4E74B90038FF32 /* OrderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D6ED21F4E74B90038FF32 /* OrderService.swift */; };
+		189D6ED51F4E75860038FF32 /* OrderServer_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D6ED41F4E75860038FF32 /* OrderServer_2.swift */; };
+		189D6ED71F4E75C50038FF32 /* PayOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D6ED61F4E75C50038FF32 /* PayOrder.swift */; };
+		189D6ED91F4E75E30038FF32 /* OrderServer_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D6ED81F4E75E30038FF32 /* OrderServer_3.swift */; };
+		189D6EDB1F4E78FD0038FF32 /* Order_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D6EDA1F4E78FD0038FF32 /* Order_4.swift */; };
+		189D6EDD1F4E79410038FF32 /* PayOrder_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D6EDC1F4E79410038FF32 /* PayOrder_4.swift */; };
+		189D6EDF1F4E79D20038FF32 /* OrderServer_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D6EDE1F4E79D20038FF32 /* OrderServer_4.swift */; };
+		189D6EE11F4E7B180038FF32 /* OrderServer_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D6EE01F4E7B180038FF32 /* OrderServer_5.swift */; };
+		189D6EE31F4E7B290038FF32 /* TmailOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D6EE21F4E7B290038FF32 /* TmailOrder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +48,16 @@
 		189D6EC41F4E6C150038FF32 /* StudentModel_3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentModel_3.swift; sourceTree = "<group>"; };
 		189D6EC61F4E6D560038FF32 /* StudentModel_4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentModel_4.swift; sourceTree = "<group>"; };
 		189D6EC81F4E6E000038FF32 /* TeacherModel_4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherModel_4.swift; sourceTree = "<group>"; };
+		189D6ED01F4E74820038FF32 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		189D6ED21F4E74B90038FF32 /* OrderService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderService.swift; sourceTree = "<group>"; };
+		189D6ED41F4E75860038FF32 /* OrderServer_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderServer_2.swift; sourceTree = "<group>"; };
+		189D6ED61F4E75C50038FF32 /* PayOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayOrder.swift; sourceTree = "<group>"; };
+		189D6ED81F4E75E30038FF32 /* OrderServer_3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderServer_3.swift; sourceTree = "<group>"; };
+		189D6EDA1F4E78FD0038FF32 /* Order_4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order_4.swift; sourceTree = "<group>"; };
+		189D6EDC1F4E79410038FF32 /* PayOrder_4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayOrder_4.swift; sourceTree = "<group>"; };
+		189D6EDE1F4E79D20038FF32 /* OrderServer_4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderServer_4.swift; sourceTree = "<group>"; };
+		189D6EE01F4E7B180038FF32 /* OrderServer_5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderServer_5.swift; sourceTree = "<group>"; };
+		189D6EE21F4E7B290038FF32 /* TmailOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TmailOrder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,8 +152,66 @@
 		189D6EB91F4E68F60038FF32 /* Simple2_加强案例 */ = {
 			isa = PBXGroup;
 			children = (
+				189D6ECA1F4E74740038FF32 /* Simple_1_原始案例 */,
+				189D6ECB1F4E74740038FF32 /* Simple_2_普通代码 */,
+				189D6ECC1F4E74740038FF32 /* Simple_3_发现问题 */,
+				189D6ECD1F4E74740038FF32 /* Simple_4_原型模式 */,
+				189D6ECE1F4E74740038FF32 /* Simple_5_依赖协议 */,
+				189D6ECF1F4E74740038FF32 /* Simple_6_泛型设计 */,
 			);
 			path = "Simple2_加强案例";
+			sourceTree = "<group>";
+		};
+		189D6ECA1F4E74740038FF32 /* Simple_1_原始案例 */ = {
+			isa = PBXGroup;
+			children = (
+				189D6ED01F4E74820038FF32 /* Order.swift */,
+				189D6ED21F4E74B90038FF32 /* OrderService.swift */,
+			);
+			path = "Simple_1_原始案例";
+			sourceTree = "<group>";
+		};
+		189D6ECB1F4E74740038FF32 /* Simple_2_普通代码 */ = {
+			isa = PBXGroup;
+			children = (
+				189D6ED41F4E75860038FF32 /* OrderServer_2.swift */,
+			);
+			path = "Simple_2_普通代码";
+			sourceTree = "<group>";
+		};
+		189D6ECC1F4E74740038FF32 /* Simple_3_发现问题 */ = {
+			isa = PBXGroup;
+			children = (
+				189D6ED61F4E75C50038FF32 /* PayOrder.swift */,
+				189D6ED81F4E75E30038FF32 /* OrderServer_3.swift */,
+			);
+			path = "Simple_3_发现问题";
+			sourceTree = "<group>";
+		};
+		189D6ECD1F4E74740038FF32 /* Simple_4_原型模式 */ = {
+			isa = PBXGroup;
+			children = (
+				189D6EDA1F4E78FD0038FF32 /* Order_4.swift */,
+				189D6EDC1F4E79410038FF32 /* PayOrder_4.swift */,
+				189D6EDE1F4E79D20038FF32 /* OrderServer_4.swift */,
+				189D6EE21F4E7B290038FF32 /* TmailOrder.swift */,
+			);
+			path = "Simple_4_原型模式";
+			sourceTree = "<group>";
+		};
+		189D6ECE1F4E74740038FF32 /* Simple_5_依赖协议 */ = {
+			isa = PBXGroup;
+			children = (
+				189D6EE01F4E7B180038FF32 /* OrderServer_5.swift */,
+			);
+			path = "Simple_5_依赖协议";
+			sourceTree = "<group>";
+		};
+		189D6ECF1F4E74740038FF32 /* Simple_6_泛型设计 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Simple_6_泛型设计";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,10 +286,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189D6ED51F4E75860038FF32 /* OrderServer_2.swift in Sources */,
 				189D6EC11F4E6A350038FF32 /* TeacherModel.swift in Sources */,
 				189D6EC51F4E6C150038FF32 /* StudentModel_3.swift in Sources */,
+				189D6EE11F4E7B180038FF32 /* OrderServer_5.swift in Sources */,
+				189D6ED31F4E74B90038FF32 /* OrderService.swift in Sources */,
 				189D6EA51F4E68080038FF32 /* ViewController.swift in Sources */,
+				189D6EE31F4E7B290038FF32 /* TmailOrder.swift in Sources */,
+				189D6ED91F4E75E30038FF32 /* OrderServer_3.swift in Sources */,
+				189D6EDF1F4E79D20038FF32 /* OrderServer_4.swift in Sources */,
 				189D6EC71F4E6D560038FF32 /* StudentModel_4.swift in Sources */,
+				189D6EDD1F4E79410038FF32 /* PayOrder_4.swift in Sources */,
+				189D6EDB1F4E78FD0038FF32 /* Order_4.swift in Sources */,
+				189D6ED11F4E74820038FF32 /* Order.swift in Sources */,
+				189D6ED71F4E75C50038FF32 /* PayOrder.swift in Sources */,
 				189D6EBD1F4E69530038FF32 /* CloneProtocol.swift in Sources */,
 				189D6EBB1F4E693B0038FF32 /* UserModel.swift in Sources */,
 				189D6EC31F4E6B1A0038FF32 /* TeacherModel_3.swift in Sources */,
