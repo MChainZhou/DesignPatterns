@@ -12,6 +12,14 @@
 		189D6EA81F4E68080038FF32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189D6EA61F4E68080038FF32 /* Main.storyboard */; };
 		189D6EAA1F4E68080038FF32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189D6EA91F4E68080038FF32 /* Assets.xcassets */; };
 		189D6EAD1F4E68080038FF32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189D6EAB1F4E68080038FF32 /* LaunchScreen.storyboard */; };
+		189D6EBB1F4E693B0038FF32 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D6EBA1F4E693B0038FF32 /* UserModel.swift */; };
+		189D6EBD1F4E69530038FF32 /* CloneProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D6EBC1F4E69530038FF32 /* CloneProtocol.swift */; };
+		189D6EBF1F4E6A260038FF32 /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D6EBE1F4E6A260038FF32 /* StudentModel.swift */; };
+		189D6EC11F4E6A350038FF32 /* TeacherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D6EC01F4E6A350038FF32 /* TeacherModel.swift */; };
+		189D6EC31F4E6B1A0038FF32 /* TeacherModel_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D6EC21F4E6B1A0038FF32 /* TeacherModel_3.swift */; };
+		189D6EC51F4E6C150038FF32 /* StudentModel_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D6EC41F4E6C150038FF32 /* StudentModel_3.swift */; };
+		189D6EC71F4E6D560038FF32 /* StudentModel_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D6EC61F4E6D560038FF32 /* StudentModel_4.swift */; };
+		189D6EC91F4E6E000038FF32 /* TeacherModel_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D6EC81F4E6E000038FF32 /* TeacherModel_4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		189D6EA91F4E68080038FF32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		189D6EAC1F4E68080038FF32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		189D6EAE1F4E68080038FF32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189D6EBA1F4E693B0038FF32 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		189D6EBC1F4E69530038FF32 /* CloneProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloneProtocol.swift; sourceTree = "<group>"; };
+		189D6EBE1F4E6A260038FF32 /* StudentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
+		189D6EC01F4E6A350038FF32 /* TeacherModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherModel.swift; sourceTree = "<group>"; };
+		189D6EC21F4E6B1A0038FF32 /* TeacherModel_3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherModel_3.swift; sourceTree = "<group>"; };
+		189D6EC41F4E6C150038FF32 /* StudentModel_3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentModel_3.swift; sourceTree = "<group>"; };
+		189D6EC61F4E6D560038FF32 /* StudentModel_4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentModel_4.swift; sourceTree = "<group>"; };
+		189D6EC81F4E6E000038FF32 /* TeacherModel_4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherModel_4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,8 @@
 		189D6EA11F4E68080038FF32 /* Clone */ = {
 			isa = PBXGroup;
 			children = (
+				189D6EB41F4E68F60038FF32 /* Simple1_原理案例 */,
+				189D6EB91F4E68F60038FF32 /* Simple2_加强案例 */,
 				189D6EA21F4E68080038FF32 /* AppDelegate.swift */,
 				189D6EA41F4E68080038FF32 /* ViewController.swift */,
 				189D6EA61F4E68080038FF32 /* Main.storyboard */,
@@ -62,6 +80,60 @@
 				189D6EAE1F4E68080038FF32 /* Info.plist */,
 			);
 			path = Clone;
+			sourceTree = "<group>";
+		};
+		189D6EB41F4E68F60038FF32 /* Simple1_原理案例 */ = {
+			isa = PBXGroup;
+			children = (
+				189D6EB51F4E68F60038FF32 /* Simple1 */,
+				189D6EB61F4E68F60038FF32 /* Simple2 */,
+				189D6EB71F4E68F60038FF32 /* Simple3 */,
+				189D6EB81F4E68F60038FF32 /* Simple4 */,
+			);
+			path = "Simple1_原理案例";
+			sourceTree = "<group>";
+		};
+		189D6EB51F4E68F60038FF32 /* Simple1 */ = {
+			isa = PBXGroup;
+			children = (
+				189D6EBA1F4E693B0038FF32 /* UserModel.swift */,
+				189D6EBC1F4E69530038FF32 /* CloneProtocol.swift */,
+			);
+			path = Simple1;
+			sourceTree = "<group>";
+		};
+		189D6EB61F4E68F60038FF32 /* Simple2 */ = {
+			isa = PBXGroup;
+			children = (
+				189D6EBE1F4E6A260038FF32 /* StudentModel.swift */,
+				189D6EC01F4E6A350038FF32 /* TeacherModel.swift */,
+			);
+			path = Simple2;
+			sourceTree = "<group>";
+		};
+		189D6EB71F4E68F60038FF32 /* Simple3 */ = {
+			isa = PBXGroup;
+			children = (
+				189D6EC21F4E6B1A0038FF32 /* TeacherModel_3.swift */,
+				189D6EC41F4E6C150038FF32 /* StudentModel_3.swift */,
+			);
+			path = Simple3;
+			sourceTree = "<group>";
+		};
+		189D6EB81F4E68F60038FF32 /* Simple4 */ = {
+			isa = PBXGroup;
+			children = (
+				189D6EC61F4E6D560038FF32 /* StudentModel_4.swift */,
+				189D6EC81F4E6E000038FF32 /* TeacherModel_4.swift */,
+			);
+			path = Simple4;
+			sourceTree = "<group>";
+		};
+		189D6EB91F4E68F60038FF32 /* Simple2_加强案例 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Simple2_加强案例";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +208,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189D6EC11F4E6A350038FF32 /* TeacherModel.swift in Sources */,
+				189D6EC51F4E6C150038FF32 /* StudentModel_3.swift in Sources */,
 				189D6EA51F4E68080038FF32 /* ViewController.swift in Sources */,
+				189D6EC71F4E6D560038FF32 /* StudentModel_4.swift in Sources */,
+				189D6EBD1F4E69530038FF32 /* CloneProtocol.swift in Sources */,
+				189D6EBB1F4E693B0038FF32 /* UserModel.swift in Sources */,
+				189D6EC31F4E6B1A0038FF32 /* TeacherModel_3.swift in Sources */,
+				189D6EC91F4E6E000038FF32 /* TeacherModel_4.swift in Sources */,
+				189D6EBF1F4E6A260038FF32 /* StudentModel.swift in Sources */,
 				189D6EA31F4E68080038FF32 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
