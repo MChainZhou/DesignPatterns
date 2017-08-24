@@ -1,14 +1,14 @@
 //
-//  Operation_3.swift
+//  Operation_4.swift
 //  Commed
 //
-//  Created by apple on 2017/8/23.
+//  Created by apple on 2017/8/24.
 //  Copyright © 2017年 apple. All rights reserved.
 //
 
 import UIKit
 
-class Operation_3: NSObject {
+class Operation_4: NSObject {
     private var tm:TetrisMachine?
     
     private var commandArray = Array<TMCommandProtocol>()
@@ -61,9 +61,10 @@ class Operation_3: NSObject {
     
     //撤销所有
     func undoAll(){
-        for command in self.commandArray {
-            command.execute()
-        }
+        let wrapper = WrapperCommand(commandArray: self.commandArray)
+        
+        wrapper.execute()
+        
         self.commandArray.removeAll()
     }
     
