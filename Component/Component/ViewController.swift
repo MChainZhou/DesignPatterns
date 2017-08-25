@@ -12,7 +12,23 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let rootView = Composite(name: "UIView")
+        let button = Composite(name: "UIButton")
+        
+        let label = Composite(name: "UILabel")
+        let leaf = Composite(name: "MyView")
+        
+        //添加叶子结点
+        label.addChild(child: leaf)
+        rootView.addChild(child: button)
+        rootView.addChild(child: label)
+        
+        rootView.doSomething()
+        
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

@@ -12,6 +12,8 @@
 		18728B731F5002BE00FCE359 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18728B711F5002BE00FCE359 /* Main.storyboard */; };
 		18728B751F5002BE00FCE359 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18728B741F5002BE00FCE359 /* Assets.xcassets */; };
 		18728B781F5002BE00FCE359 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18728B761F5002BE00FCE359 /* LaunchScreen.storyboard */; };
+		18728B821F50036500FCE359 /* ComonentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18728B811F50036500FCE359 /* ComonentProtocol.swift */; };
+		18728B861F50071D00FCE359 /* Composite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18728B851F50071D00FCE359 /* Composite.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,9 @@
 		18728B741F5002BE00FCE359 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18728B771F5002BE00FCE359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18728B791F5002BE00FCE359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18728B811F50036500FCE359 /* ComonentProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComonentProtocol.swift; sourceTree = "<group>"; };
+		18728B831F50065E00FCE359 /* Leaf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Leaf.swift; sourceTree = "<group>"; };
+		18728B851F50071D00FCE359 /* Composite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Composite.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +59,8 @@
 		18728B6C1F5002BE00FCE359 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				18728B7F1F50031900FCE359 /* Simple_1_原理案例 */,
+				18728B801F50031900FCE359 /* Simple_2_改进案例 */,
 				18728B6D1F5002BE00FCE359 /* AppDelegate.swift */,
 				18728B6F1F5002BE00FCE359 /* ViewController.swift */,
 				18728B711F5002BE00FCE359 /* Main.storyboard */,
@@ -62,6 +69,23 @@
 				18728B791F5002BE00FCE359 /* Info.plist */,
 			);
 			path = Component;
+			sourceTree = "<group>";
+		};
+		18728B7F1F50031900FCE359 /* Simple_1_原理案例 */ = {
+			isa = PBXGroup;
+			children = (
+				18728B811F50036500FCE359 /* ComonentProtocol.swift */,
+				18728B851F50071D00FCE359 /* Composite.swift */,
+				18728B831F50065E00FCE359 /* Leaf.swift */,
+			);
+			path = "Simple_1_原理案例";
+			sourceTree = "<group>";
+		};
+		18728B801F50031900FCE359 /* Simple_2_改进案例 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Simple_2_改进案例";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +161,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				18728B701F5002BE00FCE359 /* ViewController.swift in Sources */,
+				18728B861F50071D00FCE359 /* Composite.swift in Sources */,
+				18728B821F50036500FCE359 /* ComonentProtocol.swift in Sources */,
 				18728B6E1F5002BE00FCE359 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
