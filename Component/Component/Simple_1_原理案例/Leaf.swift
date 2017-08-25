@@ -19,7 +19,7 @@ class Leaf: ComonentProtocol {
     }
     
     func doSomething(){
-        print("叶子节点：\(self.name)")
+//        print("叶子节点：\(self.name)")
     }
 
 }

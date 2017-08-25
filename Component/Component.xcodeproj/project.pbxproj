@@ -14,6 +14,9 @@
 		18728B781F5002BE00FCE359 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18728B761F5002BE00FCE359 /* LaunchScreen.storyboard */; };
 		18728B821F50036500FCE359 /* ComonentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18728B811F50036500FCE359 /* ComonentProtocol.swift */; };
 		18728B861F50071D00FCE359 /* Composite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18728B851F50071D00FCE359 /* Composite.swift */; };
+		18728B881F50119500FCE359 /* ComponentProtocol_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18728B871F50119500FCE359 /* ComponentProtocol_2.swift */; };
+		18728B8A1F50140800FCE359 /* Leaf_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18728B891F50140800FCE359 /* Leaf_2.swift */; };
+		18728B8C1F5016DF00FCE359 /* Composites_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18728B8B1F5016DF00FCE359 /* Composites_2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		18728B811F50036500FCE359 /* ComonentProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComonentProtocol.swift; sourceTree = "<group>"; };
 		18728B831F50065E00FCE359 /* Leaf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Leaf.swift; sourceTree = "<group>"; };
 		18728B851F50071D00FCE359 /* Composite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Composite.swift; sourceTree = "<group>"; };
+		18728B871F50119500FCE359 /* ComponentProtocol_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentProtocol_2.swift; sourceTree = "<group>"; };
+		18728B891F50140800FCE359 /* Leaf_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Leaf_2.swift; sourceTree = "<group>"; };
+		18728B8B1F5016DF00FCE359 /* Composites_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Composites_2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,9 @@
 		18728B801F50031900FCE359 /* Simple_2_改进案例 */ = {
 			isa = PBXGroup;
 			children = (
+				18728B871F50119500FCE359 /* ComponentProtocol_2.swift */,
+				18728B8B1F5016DF00FCE359 /* Composites_2.swift */,
+				18728B891F50140800FCE359 /* Leaf_2.swift */,
 			);
 			path = "Simple_2_改进案例";
 			sourceTree = "<group>";
@@ -160,9 +169,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18728B8C1F5016DF00FCE359 /* Composites_2.swift in Sources */,
+				18728B881F50119500FCE359 /* ComponentProtocol_2.swift in Sources */,
 				18728B701F5002BE00FCE359 /* ViewController.swift in Sources */,
 				18728B861F50071D00FCE359 /* Composite.swift in Sources */,
 				18728B821F50036500FCE359 /* ComonentProtocol.swift in Sources */,
+				18728B8A1F50140800FCE359 /* Leaf_2.swift in Sources */,
 				18728B6E1F5002BE00FCE359 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
