@@ -12,6 +12,12 @@
 		18DBE1721F53B07D00B6C7C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DBE1701F53B07D00B6C7C3 /* Main.storyboard */; };
 		18DBE1741F53B07D00B6C7C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DBE1731F53B07D00B6C7C3 /* Assets.xcassets */; };
 		18DBE1771F53B07D00B6C7C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DBE1751F53B07D00B6C7C3 /* LaunchScreen.storyboard */; };
+		18DBE1811F53B0E700B6C7C3 /* TicketProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBE1801F53B0E700B6C7C3 /* TicketProtocol.swift */; };
+		18DBE1831F53B13600B6C7C3 /* TrainTicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBE1821F53B13600B6C7C3 /* TrainTicket.swift */; };
+		18DBE1851F53B22100B6C7C3 /* TiketFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBE1841F53B22100B6C7C3 /* TiketFactory.swift */; };
+		18DBE1871F53B49B00B6C7C3 /* TicketProtocol_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBE1861F53B49B00B6C7C3 /* TicketProtocol_2.swift */; };
+		18DBE1891F53B57F00B6C7C3 /* TrainTicket_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBE1881F53B57F00B6C7C3 /* TrainTicket_2.swift */; };
+		18DBE18B1F53B62F00B6C7C3 /* TicketFactory_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBE18A1F53B62F00B6C7C3 /* TicketFactory_2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		18DBE1731F53B07D00B6C7C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18DBE1761F53B07D00B6C7C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18DBE1781F53B07D00B6C7C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DBE1801F53B0E700B6C7C3 /* TicketProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketProtocol.swift; sourceTree = "<group>"; };
+		18DBE1821F53B13600B6C7C3 /* TrainTicket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainTicket.swift; sourceTree = "<group>"; };
+		18DBE1841F53B22100B6C7C3 /* TiketFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TiketFactory.swift; sourceTree = "<group>"; };
+		18DBE1861F53B49B00B6C7C3 /* TicketProtocol_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketProtocol_2.swift; sourceTree = "<group>"; };
+		18DBE1881F53B57F00B6C7C3 /* TrainTicket_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainTicket_2.swift; sourceTree = "<group>"; };
+		18DBE18A1F53B62F00B6C7C3 /* TicketFactory_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketFactory_2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,8 @@
 		18DBE16B1F53B07D00B6C7C3 /* Flyweight */ = {
 			isa = PBXGroup;
 			children = (
+				18DBE17E1F53B0D100B6C7C3 /* Simple_1_普通案例 */,
+				18DBE17F1F53B0D100B6C7C3 /* Simple_2_对象池 */,
 				18DBE16C1F53B07D00B6C7C3 /* AppDelegate.swift */,
 				18DBE16E1F53B07D00B6C7C3 /* ViewController.swift */,
 				18DBE1701F53B07D00B6C7C3 /* Main.storyboard */,
@@ -62,6 +76,26 @@
 				18DBE1781F53B07D00B6C7C3 /* Info.plist */,
 			);
 			path = Flyweight;
+			sourceTree = "<group>";
+		};
+		18DBE17E1F53B0D100B6C7C3 /* Simple_1_普通案例 */ = {
+			isa = PBXGroup;
+			children = (
+				18DBE1801F53B0E700B6C7C3 /* TicketProtocol.swift */,
+				18DBE1821F53B13600B6C7C3 /* TrainTicket.swift */,
+				18DBE1841F53B22100B6C7C3 /* TiketFactory.swift */,
+			);
+			path = "Simple_1_普通案例";
+			sourceTree = "<group>";
+		};
+		18DBE17F1F53B0D100B6C7C3 /* Simple_2_对象池 */ = {
+			isa = PBXGroup;
+			children = (
+				18DBE1861F53B49B00B6C7C3 /* TicketProtocol_2.swift */,
+				18DBE1881F53B57F00B6C7C3 /* TrainTicket_2.swift */,
+				18DBE18A1F53B62F00B6C7C3 /* TicketFactory_2.swift */,
+			);
+			path = "Simple_2_对象池";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +170,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DBE1871F53B49B00B6C7C3 /* TicketProtocol_2.swift in Sources */,
 				18DBE16F1F53B07D00B6C7C3 /* ViewController.swift in Sources */,
+				18DBE1811F53B0E700B6C7C3 /* TicketProtocol.swift in Sources */,
+				18DBE1851F53B22100B6C7C3 /* TiketFactory.swift in Sources */,
+				18DBE1831F53B13600B6C7C3 /* TrainTicket.swift in Sources */,
+				18DBE18B1F53B62F00B6C7C3 /* TicketFactory_2.swift in Sources */,
+				18DBE1891F53B57F00B6C7C3 /* TrainTicket_2.swift in Sources */,
 				18DBE16D1F53B07D00B6C7C3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
