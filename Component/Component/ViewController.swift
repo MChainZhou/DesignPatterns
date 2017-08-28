@@ -13,19 +13,31 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let rootView = Composite(name: "UIView")
-        let button = Composite(name: "UIButton")
+//        let rootView = Composite(name: "UIView")
+//        let button = Composite(name: "UIButton")
+//        
+//        let label = Composite(name: "UILabel")
+//        let leaf = Composite(name: "MyView")
+//        
+//        //添加叶子结点
+//        label.addChild(child: leaf)
+//        rootView.addChild(child: button)
+//        rootView.addChild(child: label)
+//        
+//        rootView.doSomething()
         
-        let label = Composite(name: "UILabel")
-        let leaf = Composite(name: "MyView")
         
-        //添加叶子结点
-        label.addChild(child: leaf)
-        rootView.addChild(child: button)
-        rootView.addChild(child: label)
         
-        rootView.doSomething()
+        let desktopDir = Folder(name: "Desktop")
+        let iOSDir = Folder(name: "iOS")
         
+        desktopDir.addDir(dir: iOSDir)
+        
+        let image = File(name: "image.png")
+        desktopDir.addDir(dir: image)
+        
+        
+        desktopDir.printDir()
         
         
         
