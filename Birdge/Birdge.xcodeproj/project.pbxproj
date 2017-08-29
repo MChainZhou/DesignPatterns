@@ -12,6 +12,12 @@
 		18DBE1DA1F54FFC800B6C7C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DBE1D81F54FFC800B6C7C3 /* Main.storyboard */; };
 		18DBE1DC1F54FFC800B6C7C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DBE1DB1F54FFC800B6C7C3 /* Assets.xcassets */; };
 		18DBE1DF1F54FFC800B6C7C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DBE1DD1F54FFC800B6C7C3 /* LaunchScreen.storyboard */; };
+		18DBE1ED1F5500AC00B6C7C3 /* OrderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBE1EC1F5500AC00B6C7C3 /* OrderProtocol.swift */; };
+		18DBE1EF1F55023300B6C7C3 /* Implementor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBE1EE1F55023300B6C7C3 /* Implementor.swift */; };
+		18DBE1F11F55029600B6C7C3 /* Abstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBE1F01F55029600B6C7C3 /* Abstraction.swift */; };
+		18DBE1F31F55030100B6C7C3 /* ConcreteImplementorA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBE1F21F55030100B6C7C3 /* ConcreteImplementorA.swift */; };
+		18DBE1F51F55033A00B6C7C3 /* ConcreteImplementorB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBE1F41F55033A00B6C7C3 /* ConcreteImplementorB.swift */; };
+		18DBE1F71F55037000B6C7C3 /* RefineAbstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBE1F61F55037000B6C7C3 /* RefineAbstraction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		18DBE1DB1F54FFC800B6C7C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18DBE1DE1F54FFC800B6C7C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18DBE1E01F54FFC800B6C7C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DBE1EC1F5500AC00B6C7C3 /* OrderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderProtocol.swift; sourceTree = "<group>"; };
+		18DBE1EE1F55023300B6C7C3 /* Implementor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Implementor.swift; sourceTree = "<group>"; };
+		18DBE1F01F55029600B6C7C3 /* Abstraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Abstraction.swift; sourceTree = "<group>"; };
+		18DBE1F21F55030100B6C7C3 /* ConcreteImplementorA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcreteImplementorA.swift; sourceTree = "<group>"; };
+		18DBE1F41F55033A00B6C7C3 /* ConcreteImplementorB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcreteImplementorB.swift; sourceTree = "<group>"; };
+		18DBE1F61F55037000B6C7C3 /* RefineAbstraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefineAbstraction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 		18DBE1D31F54FFC800B6C7C3 /* Birdge */ = {
 			isa = PBXGroup;
 			children = (
+				18DBE1E61F55008000B6C7C3 /* Bridge */,
 				18DBE1D41F54FFC800B6C7C3 /* AppDelegate.swift */,
 				18DBE1D61F54FFC800B6C7C3 /* ViewController.swift */,
 				18DBE1D81F54FFC800B6C7C3 /* Main.storyboard */,
@@ -62,6 +75,59 @@
 				18DBE1E01F54FFC800B6C7C3 /* Info.plist */,
 			);
 			path = Birdge;
+			sourceTree = "<group>";
+		};
+		18DBE1E61F55008000B6C7C3 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				18DBE1E71F55008000B6C7C3 /* Simple_1_原理案例 */,
+				18DBE1E81F55008000B6C7C3 /* Simple_2_生活案例 */,
+				18DBE1E91F55008000B6C7C3 /* Simple_3_普通代码 */,
+				18DBE1EA1F55008000B6C7C3 /* Simple_4_优化代码 */,
+				18DBE1EB1F55008000B6C7C3 /* 接口和抽象类 */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		18DBE1E71F55008000B6C7C3 /* Simple_1_原理案例 */ = {
+			isa = PBXGroup;
+			children = (
+				18DBE1EE1F55023300B6C7C3 /* Implementor.swift */,
+				18DBE1F01F55029600B6C7C3 /* Abstraction.swift */,
+				18DBE1F21F55030100B6C7C3 /* ConcreteImplementorA.swift */,
+				18DBE1F41F55033A00B6C7C3 /* ConcreteImplementorB.swift */,
+				18DBE1F61F55037000B6C7C3 /* RefineAbstraction.swift */,
+			);
+			path = "Simple_1_原理案例";
+			sourceTree = "<group>";
+		};
+		18DBE1E81F55008000B6C7C3 /* Simple_2_生活案例 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Simple_2_生活案例";
+			sourceTree = "<group>";
+		};
+		18DBE1E91F55008000B6C7C3 /* Simple_3_普通代码 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Simple_3_普通代码";
+			sourceTree = "<group>";
+		};
+		18DBE1EA1F55008000B6C7C3 /* Simple_4_优化代码 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Simple_4_优化代码";
+			sourceTree = "<group>";
+		};
+		18DBE1EB1F55008000B6C7C3 /* 接口和抽象类 */ = {
+			isa = PBXGroup;
+			children = (
+				18DBE1EC1F5500AC00B6C7C3 /* OrderProtocol.swift */,
+			);
+			path = "接口和抽象类";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +202,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DBE1EF1F55023300B6C7C3 /* Implementor.swift in Sources */,
+				18DBE1F51F55033A00B6C7C3 /* ConcreteImplementorB.swift in Sources */,
+				18DBE1F31F55030100B6C7C3 /* ConcreteImplementorA.swift in Sources */,
 				18DBE1D71F54FFC800B6C7C3 /* ViewController.swift in Sources */,
 				18DBE1D51F54FFC800B6C7C3 /* AppDelegate.swift in Sources */,
+				18DBE1F71F55037000B6C7C3 /* RefineAbstraction.swift in Sources */,
+				18DBE1ED1F5500AC00B6C7C3 /* OrderProtocol.swift in Sources */,
+				18DBE1F11F55029600B6C7C3 /* Abstraction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
