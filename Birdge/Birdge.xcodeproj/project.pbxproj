@@ -18,6 +18,18 @@
 		18DBE1F31F55030100B6C7C3 /* ConcreteImplementorA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBE1F21F55030100B6C7C3 /* ConcreteImplementorA.swift */; };
 		18DBE1F51F55033A00B6C7C3 /* ConcreteImplementorB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBE1F41F55033A00B6C7C3 /* ConcreteImplementorB.swift */; };
 		18DBE1F71F55037000B6C7C3 /* RefineAbstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBE1F61F55037000B6C7C3 /* RefineAbstraction.swift */; };
+		18DBE1F91F5504D500B6C7C3 /* OrangeJuiceAdditives.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBE1F81F5504D500B6C7C3 /* OrangeJuiceAdditives.swift */; };
+		18DBE1FB1F55052D00B6C7C3 /* OrangeJuice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBE1FA1F55052D00B6C7C3 /* OrangeJuice.swift */; };
+		18DBE1FD1F5505B000B6C7C3 /* AddIce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBE1FC1F5505B000B6C7C3 /* AddIce.swift */; };
+		18DBE1FF1F5505D500B6C7C3 /* NoneIce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBE1FE1F5505D500B6C7C3 /* NoneIce.swift */; };
+		18DBE2011F5505F600B6C7C3 /* LargeOrangeJuice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBE2001F5505F600B6C7C3 /* LargeOrangeJuice.swift */; };
+		18DBE2031F55068000B6C7C3 /* MiddleOrangeJuice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBE2021F55068000B6C7C3 /* MiddleOrangeJuice.swift */; };
+		18DBE2051F5506AD00B6C7C3 /* SmailOrangeJuice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBE2041F5506AD00B6C7C3 /* SmailOrangeJuice.swift */; };
+		18DBE2071F550B2100B6C7C3 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBE2061F550B2100B6C7C3 /* ProgressView.swift */; };
+		18DBE2091F550E6F00B6C7C3 /* ProgressView_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBE2081F550E6F00B6C7C3 /* ProgressView_4.swift */; };
+		18DBE20B1F550E9500B6C7C3 /* BaseProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBE20A1F550E9500B6C7C3 /* BaseProgress.swift */; };
+		18DBE20D1F5512B200B6C7C3 /* HorizontalProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBE20C1F5512B200B6C7C3 /* HorizontalProgress.swift */; };
+		18DBE20F1F55139B00B6C7C3 /* VerticalProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBE20E1F55139B00B6C7C3 /* VerticalProgress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +46,18 @@
 		18DBE1F21F55030100B6C7C3 /* ConcreteImplementorA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcreteImplementorA.swift; sourceTree = "<group>"; };
 		18DBE1F41F55033A00B6C7C3 /* ConcreteImplementorB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcreteImplementorB.swift; sourceTree = "<group>"; };
 		18DBE1F61F55037000B6C7C3 /* RefineAbstraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefineAbstraction.swift; sourceTree = "<group>"; };
+		18DBE1F81F5504D500B6C7C3 /* OrangeJuiceAdditives.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrangeJuiceAdditives.swift; sourceTree = "<group>"; };
+		18DBE1FA1F55052D00B6C7C3 /* OrangeJuice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrangeJuice.swift; sourceTree = "<group>"; };
+		18DBE1FC1F5505B000B6C7C3 /* AddIce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddIce.swift; sourceTree = "<group>"; };
+		18DBE1FE1F5505D500B6C7C3 /* NoneIce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoneIce.swift; sourceTree = "<group>"; };
+		18DBE2001F5505F600B6C7C3 /* LargeOrangeJuice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeOrangeJuice.swift; sourceTree = "<group>"; };
+		18DBE2021F55068000B6C7C3 /* MiddleOrangeJuice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiddleOrangeJuice.swift; sourceTree = "<group>"; };
+		18DBE2041F5506AD00B6C7C3 /* SmailOrangeJuice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmailOrangeJuice.swift; sourceTree = "<group>"; };
+		18DBE2061F550B2100B6C7C3 /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		18DBE2081F550E6F00B6C7C3 /* ProgressView_4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView_4.swift; sourceTree = "<group>"; };
+		18DBE20A1F550E9500B6C7C3 /* BaseProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseProgress.swift; sourceTree = "<group>"; };
+		18DBE20C1F5512B200B6C7C3 /* HorizontalProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalProgress.swift; sourceTree = "<group>"; };
+		18DBE20E1F55139B00B6C7C3 /* VerticalProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalProgress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +128,13 @@
 		18DBE1E81F55008000B6C7C3 /* Simple_2_生活案例 */ = {
 			isa = PBXGroup;
 			children = (
+				18DBE1F81F5504D500B6C7C3 /* OrangeJuiceAdditives.swift */,
+				18DBE1FA1F55052D00B6C7C3 /* OrangeJuice.swift */,
+				18DBE1FC1F5505B000B6C7C3 /* AddIce.swift */,
+				18DBE1FE1F5505D500B6C7C3 /* NoneIce.swift */,
+				18DBE2001F5505F600B6C7C3 /* LargeOrangeJuice.swift */,
+				18DBE2021F55068000B6C7C3 /* MiddleOrangeJuice.swift */,
+				18DBE2041F5506AD00B6C7C3 /* SmailOrangeJuice.swift */,
 			);
 			path = "Simple_2_生活案例";
 			sourceTree = "<group>";
@@ -111,6 +142,7 @@
 		18DBE1E91F55008000B6C7C3 /* Simple_3_普通代码 */ = {
 			isa = PBXGroup;
 			children = (
+				18DBE2061F550B2100B6C7C3 /* ProgressView.swift */,
 			);
 			path = "Simple_3_普通代码";
 			sourceTree = "<group>";
@@ -118,6 +150,10 @@
 		18DBE1EA1F55008000B6C7C3 /* Simple_4_优化代码 */ = {
 			isa = PBXGroup;
 			children = (
+				18DBE2081F550E6F00B6C7C3 /* ProgressView_4.swift */,
+				18DBE20A1F550E9500B6C7C3 /* BaseProgress.swift */,
+				18DBE20C1F5512B200B6C7C3 /* HorizontalProgress.swift */,
+				18DBE20E1F55139B00B6C7C3 /* VerticalProgress.swift */,
 			);
 			path = "Simple_4_优化代码";
 			sourceTree = "<group>";
@@ -202,14 +238,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DBE20D1F5512B200B6C7C3 /* HorizontalProgress.swift in Sources */,
+				18DBE2091F550E6F00B6C7C3 /* ProgressView_4.swift in Sources */,
 				18DBE1EF1F55023300B6C7C3 /* Implementor.swift in Sources */,
+				18DBE2011F5505F600B6C7C3 /* LargeOrangeJuice.swift in Sources */,
+				18DBE20F1F55139B00B6C7C3 /* VerticalProgress.swift in Sources */,
+				18DBE1FF1F5505D500B6C7C3 /* NoneIce.swift in Sources */,
+				18DBE2051F5506AD00B6C7C3 /* SmailOrangeJuice.swift in Sources */,
+				18DBE2031F55068000B6C7C3 /* MiddleOrangeJuice.swift in Sources */,
 				18DBE1F51F55033A00B6C7C3 /* ConcreteImplementorB.swift in Sources */,
+				18DBE20B1F550E9500B6C7C3 /* BaseProgress.swift in Sources */,
 				18DBE1F31F55030100B6C7C3 /* ConcreteImplementorA.swift in Sources */,
 				18DBE1D71F54FFC800B6C7C3 /* ViewController.swift in Sources */,
+				18DBE1FD1F5505B000B6C7C3 /* AddIce.swift in Sources */,
 				18DBE1D51F54FFC800B6C7C3 /* AppDelegate.swift in Sources */,
 				18DBE1F71F55037000B6C7C3 /* RefineAbstraction.swift in Sources */,
+				18DBE1FB1F55052D00B6C7C3 /* OrangeJuice.swift in Sources */,
 				18DBE1ED1F5500AC00B6C7C3 /* OrderProtocol.swift in Sources */,
+				18DBE2071F550B2100B6C7C3 /* ProgressView.swift in Sources */,
 				18DBE1F11F55029600B6C7C3 /* Abstraction.swift in Sources */,
+				18DBE1F91F5504D500B6C7C3 /* OrangeJuiceAdditives.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
