@@ -17,6 +17,13 @@
 		18709FA11F565EC10013E1CE /* ConcreteMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18709FA01F565EC10013E1CE /* ConcreteMediator.swift */; };
 		18709FA31F565F110013E1CE /* ConcreteColleagueA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18709FA21F565F110013E1CE /* ConcreteColleagueA.swift */; };
 		18709FA51F565F450013E1CE /* ConcreteColleagueB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18709FA41F565F450013E1CE /* ConcreteColleagueB.swift */; };
+		18709FA71F5662520013E1CE /* ComputerMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18709FA61F5662520013E1CE /* ComputerMediator.swift */; };
+		18709FA91F5662820013E1CE /* ComputerColleague.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18709FA81F5662820013E1CE /* ComputerColleague.swift */; };
+		18709FAB1F56631D0013E1CE /* CPU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18709FAA1F56631D0013E1CE /* CPU.swift */; };
+		18709FAD1F56642E0013E1CE /* Displaycard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18709FAC1F56642E0013E1CE /* Displaycard.swift */; };
+		18709FAF1F56649B0013E1CE /* Soundcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18709FAE1F56649B0013E1CE /* Soundcard.swift */; };
+		18709FB11F5665090013E1CE /* CDDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18709FB01F5665090013E1CE /* CDDevice.swift */; };
+		18709FB31F5666AF0013E1CE /* Mainborad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18709FB21F5666AF0013E1CE /* Mainborad.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +39,13 @@
 		18709FA01F565EC10013E1CE /* ConcreteMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcreteMediator.swift; sourceTree = "<group>"; };
 		18709FA21F565F110013E1CE /* ConcreteColleagueA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcreteColleagueA.swift; sourceTree = "<group>"; };
 		18709FA41F565F450013E1CE /* ConcreteColleagueB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcreteColleagueB.swift; sourceTree = "<group>"; };
+		18709FA61F5662520013E1CE /* ComputerMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComputerMediator.swift; sourceTree = "<group>"; };
+		18709FA81F5662820013E1CE /* ComputerColleague.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComputerColleague.swift; sourceTree = "<group>"; };
+		18709FAA1F56631D0013E1CE /* CPU.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPU.swift; sourceTree = "<group>"; };
+		18709FAC1F56642E0013E1CE /* Displaycard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Displaycard.swift; sourceTree = "<group>"; };
+		18709FAE1F56649B0013E1CE /* Soundcard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Soundcard.swift; sourceTree = "<group>"; };
+		18709FB01F5665090013E1CE /* CDDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDDevice.swift; sourceTree = "<group>"; };
+		18709FB21F5666AF0013E1CE /* Mainborad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mainborad.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +105,13 @@
 		18709F9B1F5653180013E1CE /* Simple_2_生活案例 */ = {
 			isa = PBXGroup;
 			children = (
+				18709FA61F5662520013E1CE /* ComputerMediator.swift */,
+				18709FA81F5662820013E1CE /* ComputerColleague.swift */,
+				18709FAA1F56631D0013E1CE /* CPU.swift */,
+				18709FAC1F56642E0013E1CE /* Displaycard.swift */,
+				18709FAE1F56649B0013E1CE /* Soundcard.swift */,
+				18709FB01F5665090013E1CE /* CDDevice.swift */,
+				18709FB21F5666AF0013E1CE /* Mainborad.swift */,
 			);
 			path = "Simple_2_生活案例";
 			sourceTree = "<group>";
@@ -167,11 +188,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18709FB11F5665090013E1CE /* CDDevice.swift in Sources */,
 				18709FA31F565F110013E1CE /* ConcreteColleagueA.swift in Sources */,
 				18709F9D1F56533E0013E1CE /* Mediator.swift in Sources */,
+				18709FAB1F56631D0013E1CE /* CPU.swift in Sources */,
+				18709FA91F5662820013E1CE /* ComputerColleague.swift in Sources */,
+				18709FB31F5666AF0013E1CE /* Mainborad.swift in Sources */,
 				18709FA11F565EC10013E1CE /* ConcreteMediator.swift in Sources */,
+				18709FAF1F56649B0013E1CE /* Soundcard.swift in Sources */,
 				18709FA51F565F450013E1CE /* ConcreteColleagueB.swift in Sources */,
 				18709F8B1F5652470013E1CE /* ViewController.swift in Sources */,
+				18709FA71F5662520013E1CE /* ComputerMediator.swift in Sources */,
+				18709FAD1F56642E0013E1CE /* Displaycard.swift in Sources */,
 				18709F891F5652470013E1CE /* AppDelegate.swift in Sources */,
 				18709F9F1F56535E0013E1CE /* Colleague.swift in Sources */,
 			);
