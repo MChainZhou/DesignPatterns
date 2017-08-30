@@ -12,6 +12,11 @@
 		18709F8E1F5652470013E1CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18709F8C1F5652470013E1CE /* Main.storyboard */; };
 		18709F901F5652470013E1CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18709F8F1F5652470013E1CE /* Assets.xcassets */; };
 		18709F931F5652470013E1CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18709F911F5652470013E1CE /* LaunchScreen.storyboard */; };
+		18709F9D1F56533E0013E1CE /* Mediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18709F9C1F56533E0013E1CE /* Mediator.swift */; };
+		18709F9F1F56535E0013E1CE /* Colleague.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18709F9E1F56535E0013E1CE /* Colleague.swift */; };
+		18709FA11F565EC10013E1CE /* ConcreteMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18709FA01F565EC10013E1CE /* ConcreteMediator.swift */; };
+		18709FA31F565F110013E1CE /* ConcreteColleagueA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18709FA21F565F110013E1CE /* ConcreteColleagueA.swift */; };
+		18709FA51F565F450013E1CE /* ConcreteColleagueB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18709FA41F565F450013E1CE /* ConcreteColleagueB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		18709F8F1F5652470013E1CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18709F921F5652470013E1CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18709F941F5652470013E1CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18709F9C1F56533E0013E1CE /* Mediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mediator.swift; sourceTree = "<group>"; };
+		18709F9E1F56535E0013E1CE /* Colleague.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colleague.swift; sourceTree = "<group>"; };
+		18709FA01F565EC10013E1CE /* ConcreteMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcreteMediator.swift; sourceTree = "<group>"; };
+		18709FA21F565F110013E1CE /* ConcreteColleagueA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcreteColleagueA.swift; sourceTree = "<group>"; };
+		18709FA41F565F450013E1CE /* ConcreteColleagueB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcreteColleagueB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,8 @@
 		18709F871F5652470013E1CE /* Mediator */ = {
 			isa = PBXGroup;
 			children = (
+				18709F9A1F5653180013E1CE /* Simple_1_原理案例 */,
+				18709F9B1F5653180013E1CE /* Simple_2_生活案例 */,
 				18709F881F5652470013E1CE /* AppDelegate.swift */,
 				18709F8A1F5652470013E1CE /* ViewController.swift */,
 				18709F8C1F5652470013E1CE /* Main.storyboard */,
@@ -62,6 +74,25 @@
 				18709F941F5652470013E1CE /* Info.plist */,
 			);
 			path = Mediator;
+			sourceTree = "<group>";
+		};
+		18709F9A1F5653180013E1CE /* Simple_1_原理案例 */ = {
+			isa = PBXGroup;
+			children = (
+				18709F9C1F56533E0013E1CE /* Mediator.swift */,
+				18709FA01F565EC10013E1CE /* ConcreteMediator.swift */,
+				18709F9E1F56535E0013E1CE /* Colleague.swift */,
+				18709FA21F565F110013E1CE /* ConcreteColleagueA.swift */,
+				18709FA41F565F450013E1CE /* ConcreteColleagueB.swift */,
+			);
+			path = "Simple_1_原理案例";
+			sourceTree = "<group>";
+		};
+		18709F9B1F5653180013E1CE /* Simple_2_生活案例 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Simple_2_生活案例";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +167,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18709FA31F565F110013E1CE /* ConcreteColleagueA.swift in Sources */,
+				18709F9D1F56533E0013E1CE /* Mediator.swift in Sources */,
+				18709FA11F565EC10013E1CE /* ConcreteMediator.swift in Sources */,
+				18709FA51F565F450013E1CE /* ConcreteColleagueB.swift in Sources */,
 				18709F8B1F5652470013E1CE /* ViewController.swift in Sources */,
 				18709F891F5652470013E1CE /* AppDelegate.swift in Sources */,
+				18709F9F1F56535E0013E1CE /* Colleague.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
