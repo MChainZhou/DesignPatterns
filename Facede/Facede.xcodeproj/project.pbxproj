@@ -12,6 +12,11 @@
 		18709F651F564CE70013E1CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18709F631F564CE70013E1CE /* Main.storyboard */; };
 		18709F671F564CE70013E1CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18709F661F564CE70013E1CE /* Assets.xcassets */; };
 		18709F6A1F564CE70013E1CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18709F681F564CE70013E1CE /* LaunchScreen.storyboard */; };
+		18709F731F564E310013E1CE /* CamaraProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18709F721F564E310013E1CE /* CamaraProtocol.swift */; };
+		18709F751F564EB40013E1CE /* GameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18709F741F564EB40013E1CE /* GameProtocol.swift */; };
+		18709F771F564EE50013E1CE /* GamaraImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18709F761F564EE50013E1CE /* GamaraImpl.swift */; };
+		18709F791F564F3F0013E1CE /* GameImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18709F781F564F3F0013E1CE /* GameImpl.swift */; };
+		18709F7B1F564F720013E1CE /* Computer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18709F7A1F564F720013E1CE /* Computer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		18709F661F564CE70013E1CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18709F691F564CE70013E1CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18709F6B1F564CE70013E1CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18709F721F564E310013E1CE /* CamaraProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CamaraProtocol.swift; sourceTree = "<group>"; };
+		18709F741F564EB40013E1CE /* GameProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameProtocol.swift; sourceTree = "<group>"; };
+		18709F761F564EE50013E1CE /* GamaraImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamaraImpl.swift; sourceTree = "<group>"; };
+		18709F781F564F3F0013E1CE /* GameImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameImpl.swift; sourceTree = "<group>"; };
+		18709F7A1F564F720013E1CE /* Computer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Computer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 		18709F5E1F564CE70013E1CE /* Facede */ = {
 			isa = PBXGroup;
 			children = (
+				18709F711F564DF60013E1CE /* Facade */,
 				18709F5F1F564CE70013E1CE /* AppDelegate.swift */,
 				18709F611F564CE70013E1CE /* ViewController.swift */,
 				18709F631F564CE70013E1CE /* Main.storyboard */,
@@ -62,6 +73,18 @@
 				18709F6B1F564CE70013E1CE /* Info.plist */,
 			);
 			path = Facede;
+			sourceTree = "<group>";
+		};
+		18709F711F564DF60013E1CE /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				18709F721F564E310013E1CE /* CamaraProtocol.swift */,
+				18709F761F564EE50013E1CE /* GamaraImpl.swift */,
+				18709F741F564EB40013E1CE /* GameProtocol.swift */,
+				18709F781F564F3F0013E1CE /* GameImpl.swift */,
+				18709F7A1F564F720013E1CE /* Computer.swift */,
+			);
+			path = Facade;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +160,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				18709F621F564CE70013E1CE /* ViewController.swift in Sources */,
+				18709F791F564F3F0013E1CE /* GameImpl.swift in Sources */,
+				18709F7B1F564F720013E1CE /* Computer.swift in Sources */,
+				18709F751F564EB40013E1CE /* GameProtocol.swift in Sources */,
+				18709F731F564E310013E1CE /* CamaraProtocol.swift in Sources */,
 				18709F601F564CE70013E1CE /* AppDelegate.swift in Sources */,
+				18709F771F564EE50013E1CE /* GamaraImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
