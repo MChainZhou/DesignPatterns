@@ -12,7 +12,20 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // 案例一
+        let or = Originator()
+        or.playGame()
+        
+        let memo = or.createMemo()
+        
+        //上传服务器、存储数据路操作
+        let care = Careteker()
+        care.write(memo: memo)
+        or.exit()
+        
+        //恢复存档
+        or.restore(memo:memo)
+        or.printString()
     }
 
     override func didReceiveMemoryWarning() {

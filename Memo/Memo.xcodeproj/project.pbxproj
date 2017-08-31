@@ -12,6 +12,9 @@
 		1807E0D61F579B2B00EA6659 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1807E0D41F579B2B00EA6659 /* Main.storyboard */; };
 		1807E0D81F579B2B00EA6659 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1807E0D71F579B2B00EA6659 /* Assets.xcassets */; };
 		1807E0DB1F579B2B00EA6659 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1807E0D91F579B2B00EA6659 /* LaunchScreen.storyboard */; };
+		1807E0E51F579E8C00EA6659 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807E0E41F579E8C00EA6659 /* Memo.swift */; };
+		1807E0E71F579EEA00EA6659 /* Originator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807E0E61F579EEA00EA6659 /* Originator.swift */; };
+		1807E0E91F57A07600EA6659 /* Careteker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807E0E81F57A07600EA6659 /* Careteker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		1807E0D71F579B2B00EA6659 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1807E0DA1F579B2B00EA6659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1807E0DC1F579B2B00EA6659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1807E0E41F579E8C00EA6659 /* Memo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		1807E0E61F579EEA00EA6659 /* Originator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Originator.swift; sourceTree = "<group>"; };
+		1807E0E81F57A07600EA6659 /* Careteker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Careteker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,8 @@
 		1807E0CF1F579B2B00EA6659 /* Memo */ = {
 			isa = PBXGroup;
 			children = (
+				1807E0E21F579CDA00EA6659 /* Simple_1_原理案例 */,
+				1807E0E31F579CDA00EA6659 /* Simple_2_加强案例 */,
 				1807E0D01F579B2B00EA6659 /* AppDelegate.swift */,
 				1807E0D21F579B2B00EA6659 /* ViewController.swift */,
 				1807E0D41F579B2B00EA6659 /* Main.storyboard */,
@@ -62,6 +70,23 @@
 				1807E0DC1F579B2B00EA6659 /* Info.plist */,
 			);
 			path = Memo;
+			sourceTree = "<group>";
+		};
+		1807E0E21F579CDA00EA6659 /* Simple_1_原理案例 */ = {
+			isa = PBXGroup;
+			children = (
+				1807E0E41F579E8C00EA6659 /* Memo.swift */,
+				1807E0E61F579EEA00EA6659 /* Originator.swift */,
+				1807E0E81F57A07600EA6659 /* Careteker.swift */,
+			);
+			path = "Simple_1_原理案例";
+			sourceTree = "<group>";
+		};
+		1807E0E31F579CDA00EA6659 /* Simple_2_加强案例 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Simple_2_加强案例";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +163,9 @@
 			files = (
 				1807E0D31F579B2B00EA6659 /* ViewController.swift in Sources */,
 				1807E0D11F579B2B00EA6659 /* AppDelegate.swift in Sources */,
+				1807E0E71F579EEA00EA6659 /* Originator.swift in Sources */,
+				1807E0E91F57A07600EA6659 /* Careteker.swift in Sources */,
+				1807E0E51F579E8C00EA6659 /* Memo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
