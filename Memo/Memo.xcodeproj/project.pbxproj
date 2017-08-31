@@ -15,6 +15,15 @@
 		1807E0E51F579E8C00EA6659 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807E0E41F579E8C00EA6659 /* Memo.swift */; };
 		1807E0E71F579EEA00EA6659 /* Originator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807E0E61F579EEA00EA6659 /* Originator.swift */; };
 		1807E0E91F57A07600EA6659 /* Careteker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807E0E81F57A07600EA6659 /* Careteker.swift */; };
+		1807E0EF1F57A82100EA6659 /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807E0EE1F57A82100EA6659 /* BankAccount.swift */; };
+		1807E0F11F57A8E700EA6659 /* BankAccountCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807E0F01F57A8E700EA6659 /* BankAccountCommand.swift */; };
+		1807E0F31F57A93E00EA6659 /* BankAccountReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807E0F21F57A93E00EA6659 /* BankAccountReceiver.swift */; };
+		1807E0F51F57AFC300EA6659 /* MemoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807E0F41F57AFC300EA6659 /* MemoProtocol.swift */; };
+		1807E0F71F57B00300EA6659 /* OriginatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807E0F61F57B00300EA6659 /* OriginatorProtocol.swift */; };
+		1807E0F91F57B07200EA6659 /* BankAccountMemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807E0F81F57B07200EA6659 /* BankAccountMemo.swift */; };
+		1807E0FB1F57B0ED00EA6659 /* BankAccountOriginator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807E0FA1F57B0ED00EA6659 /* BankAccountOriginator.swift */; };
+		1807E0FD1F57B7EB00EA6659 /* JsonBankAccountMemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807E0FC1F57B7EB00EA6659 /* JsonBankAccountMemo.swift */; };
+		1807E0FF1F57B80000EA6659 /* JsonBankAccountOriginator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807E0FE1F57B80000EA6659 /* JsonBankAccountOriginator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +37,15 @@
 		1807E0E41F579E8C00EA6659 /* Memo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		1807E0E61F579EEA00EA6659 /* Originator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Originator.swift; sourceTree = "<group>"; };
 		1807E0E81F57A07600EA6659 /* Careteker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Careteker.swift; sourceTree = "<group>"; };
+		1807E0EE1F57A82100EA6659 /* BankAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
+		1807E0F01F57A8E700EA6659 /* BankAccountCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankAccountCommand.swift; sourceTree = "<group>"; };
+		1807E0F21F57A93E00EA6659 /* BankAccountReceiver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankAccountReceiver.swift; sourceTree = "<group>"; };
+		1807E0F41F57AFC300EA6659 /* MemoProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoProtocol.swift; sourceTree = "<group>"; };
+		1807E0F61F57B00300EA6659 /* OriginatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OriginatorProtocol.swift; sourceTree = "<group>"; };
+		1807E0F81F57B07200EA6659 /* BankAccountMemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankAccountMemo.swift; sourceTree = "<group>"; };
+		1807E0FA1F57B0ED00EA6659 /* BankAccountOriginator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankAccountOriginator.swift; sourceTree = "<group>"; };
+		1807E0FC1F57B7EB00EA6659 /* JsonBankAccountMemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonBankAccountMemo.swift; sourceTree = "<group>"; };
+		1807E0FE1F57B80000EA6659 /* JsonBankAccountOriginator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonBankAccountOriginator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +103,49 @@
 		1807E0E31F579CDA00EA6659 /* Simple_2_加强案例 */ = {
 			isa = PBXGroup;
 			children = (
+				1807E0EA1F57A7FD00EA6659 /* Simple_1_命令模式 */,
+				1807E0EB1F57A7FD00EA6659 /* Simple_2_优化案例 */,
+				1807E0EC1F57A7FD00EA6659 /* Simple_3_优化变种 */,
+				1807E0ED1F57A7FD00EA6659 /* Simple_4_再次改进 */,
 			);
 			path = "Simple_2_加强案例";
+			sourceTree = "<group>";
+		};
+		1807E0EA1F57A7FD00EA6659 /* Simple_1_命令模式 */ = {
+			isa = PBXGroup;
+			children = (
+				1807E0EE1F57A82100EA6659 /* BankAccount.swift */,
+				1807E0F01F57A8E700EA6659 /* BankAccountCommand.swift */,
+				1807E0F21F57A93E00EA6659 /* BankAccountReceiver.swift */,
+			);
+			path = "Simple_1_命令模式";
+			sourceTree = "<group>";
+		};
+		1807E0EB1F57A7FD00EA6659 /* Simple_2_优化案例 */ = {
+			isa = PBXGroup;
+			children = (
+				1807E0F41F57AFC300EA6659 /* MemoProtocol.swift */,
+				1807E0F61F57B00300EA6659 /* OriginatorProtocol.swift */,
+				1807E0F81F57B07200EA6659 /* BankAccountMemo.swift */,
+				1807E0FA1F57B0ED00EA6659 /* BankAccountOriginator.swift */,
+			);
+			path = "Simple_2_优化案例";
+			sourceTree = "<group>";
+		};
+		1807E0EC1F57A7FD00EA6659 /* Simple_3_优化变种 */ = {
+			isa = PBXGroup;
+			children = (
+				1807E0FC1F57B7EB00EA6659 /* JsonBankAccountMemo.swift */,
+				1807E0FE1F57B80000EA6659 /* JsonBankAccountOriginator.swift */,
+			);
+			path = "Simple_3_优化变种";
+			sourceTree = "<group>";
+		};
+		1807E0ED1F57A7FD00EA6659 /* Simple_4_再次改进 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Simple_4_再次改进";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,10 +220,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1807E0FD1F57B7EB00EA6659 /* JsonBankAccountMemo.swift in Sources */,
+				1807E0F51F57AFC300EA6659 /* MemoProtocol.swift in Sources */,
+				1807E0FB1F57B0ED00EA6659 /* BankAccountOriginator.swift in Sources */,
 				1807E0D31F579B2B00EA6659 /* ViewController.swift in Sources */,
+				1807E0EF1F57A82100EA6659 /* BankAccount.swift in Sources */,
+				1807E0FF1F57B80000EA6659 /* JsonBankAccountOriginator.swift in Sources */,
+				1807E0F31F57A93E00EA6659 /* BankAccountReceiver.swift in Sources */,
 				1807E0D11F579B2B00EA6659 /* AppDelegate.swift in Sources */,
+				1807E0F91F57B07200EA6659 /* BankAccountMemo.swift in Sources */,
 				1807E0E71F579EEA00EA6659 /* Originator.swift in Sources */,
 				1807E0E91F57A07600EA6659 /* Careteker.swift in Sources */,
+				1807E0F71F57B00300EA6659 /* OriginatorProtocol.swift in Sources */,
+				1807E0F11F57A8E700EA6659 /* BankAccountCommand.swift in Sources */,
 				1807E0E51F579E8C00EA6659 /* Memo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
