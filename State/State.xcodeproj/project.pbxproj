@@ -12,6 +12,10 @@
 		1805A3FB1F58EF2F0054CB51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1805A3F91F58EF2F0054CB51 /* Main.storyboard */; };
 		1805A3FD1F58EF2F0054CB51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1805A3FC1F58EF2F0054CB51 /* Assets.xcassets */; };
 		1805A4001F58EF2F0054CB51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1805A3FE1F58EF2F0054CB51 /* LaunchScreen.storyboard */; };
+		1805A40A1F58F1550054CB51 /* StateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805A4091F58F1550054CB51 /* StateProtocol.swift */; };
+		1805A40C1F58F1A60054CB51 /* PowerOnState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805A40B1F58F1A60054CB51 /* PowerOnState.swift */; };
+		1805A40E1F58F2770054CB51 /* PowerOffState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805A40D1F58F2770054CB51 /* PowerOffState.swift */; };
+		1805A4101F58F2F70054CB51 /* TVContorller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805A40F1F58F2F70054CB51 /* TVContorller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		1805A3FC1F58EF2F0054CB51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1805A3FF1F58EF2F0054CB51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1805A4011F58EF2F0054CB51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1805A4091F58F1550054CB51 /* StateProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateProtocol.swift; sourceTree = "<group>"; };
+		1805A40B1F58F1A60054CB51 /* PowerOnState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerOnState.swift; sourceTree = "<group>"; };
+		1805A40D1F58F2770054CB51 /* PowerOffState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerOffState.swift; sourceTree = "<group>"; };
+		1805A40F1F58F2F70054CB51 /* TVContorller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVContorller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,8 @@
 		1805A3F41F58EF2F0054CB51 /* State */ = {
 			isa = PBXGroup;
 			children = (
+				1805A4071F58EF7F0054CB51 /* Simple_1_原理案例 */,
+				1805A4081F58EF7F0054CB51 /* Simple_2_加强案例 */,
 				1805A3F51F58EF2F0054CB51 /* AppDelegate.swift */,
 				1805A3F71F58EF2F0054CB51 /* ViewController.swift */,
 				1805A3F91F58EF2F0054CB51 /* Main.storyboard */,
@@ -62,6 +72,24 @@
 				1805A4011F58EF2F0054CB51 /* Info.plist */,
 			);
 			path = State;
+			sourceTree = "<group>";
+		};
+		1805A4071F58EF7F0054CB51 /* Simple_1_原理案例 */ = {
+			isa = PBXGroup;
+			children = (
+				1805A4091F58F1550054CB51 /* StateProtocol.swift */,
+				1805A40B1F58F1A60054CB51 /* PowerOnState.swift */,
+				1805A40D1F58F2770054CB51 /* PowerOffState.swift */,
+				1805A40F1F58F2F70054CB51 /* TVContorller.swift */,
+			);
+			path = "Simple_1_原理案例";
+			sourceTree = "<group>";
+		};
+		1805A4081F58EF7F0054CB51 /* Simple_2_加强案例 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Simple_2_加强案例";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +164,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1805A40C1F58F1A60054CB51 /* PowerOnState.swift in Sources */,
 				1805A3F81F58EF2F0054CB51 /* ViewController.swift in Sources */,
+				1805A40A1F58F1550054CB51 /* StateProtocol.swift in Sources */,
+				1805A40E1F58F2770054CB51 /* PowerOffState.swift in Sources */,
 				1805A3F61F58EF2F0054CB51 /* AppDelegate.swift in Sources */,
+				1805A4101F58F2F70054CB51 /* TVContorller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
