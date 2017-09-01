@@ -12,6 +12,13 @@
 		1805A42B1F58FCAE0054CB51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1805A4291F58FCAE0054CB51 /* Main.storyboard */; };
 		1805A42D1F58FCAE0054CB51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1805A42C1F58FCAE0054CB51 /* Assets.xcassets */; };
 		1805A4301F58FCAE0054CB51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1805A42E1F58FCAE0054CB51 /* LaunchScreen.storyboard */; };
+		1805A43A1F58FD2E0054CB51 /* StaffProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805A4391F58FD2E0054CB51 /* StaffProtocol.swift */; };
+		1805A43C1F58FDE60054CB51 /* VisitorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805A43B1F58FDE60054CB51 /* VisitorProtocol.swift */; };
+		1805A43E1F58FE300054CB51 /* Engineer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805A43D1F58FE300054CB51 /* Engineer.swift */; };
+		1805A4401F58FE3D0054CB51 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805A43F1F58FE3D0054CB51 /* Manager.swift */; };
+		1805A4421F58FF710054CB51 /* CTOVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805A4411F58FF710054CB51 /* CTOVisitor.swift */; };
+		1805A4441F59007D0054CB51 /* CEOVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805A4431F59007D0054CB51 /* CEOVisitor.swift */; };
+		1805A4461F5900DE0054CB51 /* EmployeeBusinessReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805A4451F5900DE0054CB51 /* EmployeeBusinessReport.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		1805A42C1F58FCAE0054CB51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1805A42F1F58FCAE0054CB51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1805A4311F58FCAE0054CB51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1805A4391F58FD2E0054CB51 /* StaffProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaffProtocol.swift; sourceTree = "<group>"; };
+		1805A43B1F58FDE60054CB51 /* VisitorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitorProtocol.swift; sourceTree = "<group>"; };
+		1805A43D1F58FE300054CB51 /* Engineer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Engineer.swift; sourceTree = "<group>"; };
+		1805A43F1F58FE3D0054CB51 /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		1805A4411F58FF710054CB51 /* CTOVisitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTOVisitor.swift; sourceTree = "<group>"; };
+		1805A4431F59007D0054CB51 /* CEOVisitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CEOVisitor.swift; sourceTree = "<group>"; };
+		1805A4451F5900DE0054CB51 /* EmployeeBusinessReport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeBusinessReport.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,8 @@
 		1805A4241F58FCAE0054CB51 /* Visitor */ = {
 			isa = PBXGroup;
 			children = (
+				1805A4371F58FD0A0054CB51 /* Simple_1_原理案例 */,
+				1805A4381F58FD0A0054CB51 /* Simple_2_增强案例 */,
 				1805A4251F58FCAE0054CB51 /* AppDelegate.swift */,
 				1805A4271F58FCAE0054CB51 /* ViewController.swift */,
 				1805A4291F58FCAE0054CB51 /* Main.storyboard */,
@@ -62,6 +78,27 @@
 				1805A4311F58FCAE0054CB51 /* Info.plist */,
 			);
 			path = Visitor;
+			sourceTree = "<group>";
+		};
+		1805A4371F58FD0A0054CB51 /* Simple_1_原理案例 */ = {
+			isa = PBXGroup;
+			children = (
+				1805A4391F58FD2E0054CB51 /* StaffProtocol.swift */,
+				1805A43B1F58FDE60054CB51 /* VisitorProtocol.swift */,
+				1805A43D1F58FE300054CB51 /* Engineer.swift */,
+				1805A43F1F58FE3D0054CB51 /* Manager.swift */,
+				1805A4411F58FF710054CB51 /* CTOVisitor.swift */,
+				1805A4431F59007D0054CB51 /* CEOVisitor.swift */,
+				1805A4451F5900DE0054CB51 /* EmployeeBusinessReport.swift */,
+			);
+			path = "Simple_1_原理案例";
+			sourceTree = "<group>";
+		};
+		1805A4381F58FD0A0054CB51 /* Simple_2_增强案例 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Simple_2_增强案例";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +173,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1805A4441F59007D0054CB51 /* CEOVisitor.swift in Sources */,
 				1805A4281F58FCAE0054CB51 /* ViewController.swift in Sources */,
+				1805A4421F58FF710054CB51 /* CTOVisitor.swift in Sources */,
+				1805A4401F58FE3D0054CB51 /* Manager.swift in Sources */,
+				1805A43A1F58FD2E0054CB51 /* StaffProtocol.swift in Sources */,
+				1805A43E1F58FE300054CB51 /* Engineer.swift in Sources */,
+				1805A4461F5900DE0054CB51 /* EmployeeBusinessReport.swift in Sources */,
+				1805A43C1F58FDE60054CB51 /* VisitorProtocol.swift in Sources */,
 				1805A4261F58FCAE0054CB51 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

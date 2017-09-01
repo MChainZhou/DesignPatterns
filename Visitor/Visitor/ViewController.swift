@@ -12,13 +12,15 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        //案例一：原理案例-测试
+        let report = EmployeeBusinessReport()
+        let cto = CTOVisitor(name: "柚芒子")
+        report.showReport(visitor: cto)
+        let ceo = CEOVisitor(name: "你大爷")
+        report.showReport(visitor: ceo)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    
 
 
 }
