@@ -16,6 +16,10 @@
 		1805A40C1F58F1A60054CB51 /* PowerOnState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805A40B1F58F1A60054CB51 /* PowerOnState.swift */; };
 		1805A40E1F58F2770054CB51 /* PowerOffState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805A40D1F58F2770054CB51 /* PowerOffState.swift */; };
 		1805A4101F58F2F70054CB51 /* TVContorller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805A40F1F58F2F70054CB51 /* TVContorller.swift */; };
+		1805A4121F58F5DD0054CB51 /* UserStateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805A4111F58F5DD0054CB51 /* UserStateProtocol.swift */; };
+		1805A4141F58F65B0054CB51 /* LoginUesrState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805A4131F58F65B0054CB51 /* LoginUesrState.swift */; };
+		1805A4161F58F6AF0054CB51 /* LogoutUserState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805A4151F58F6AF0054CB51 /* LogoutUserState.swift */; };
+		1805A4181F58F84A0054CB51 /* LoginContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805A4171F58F8490054CB51 /* LoginContext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		1805A40B1F58F1A60054CB51 /* PowerOnState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerOnState.swift; sourceTree = "<group>"; };
 		1805A40D1F58F2770054CB51 /* PowerOffState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerOffState.swift; sourceTree = "<group>"; };
 		1805A40F1F58F2F70054CB51 /* TVContorller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVContorller.swift; sourceTree = "<group>"; };
+		1805A4111F58F5DD0054CB51 /* UserStateProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserStateProtocol.swift; sourceTree = "<group>"; };
+		1805A4131F58F65B0054CB51 /* LoginUesrState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginUesrState.swift; sourceTree = "<group>"; };
+		1805A4151F58F6AF0054CB51 /* LogoutUserState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutUserState.swift; sourceTree = "<group>"; };
+		1805A4171F58F8490054CB51 /* LoginContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginContext.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +96,10 @@
 		1805A4081F58EF7F0054CB51 /* Simple_2_加强案例 */ = {
 			isa = PBXGroup;
 			children = (
+				1805A4111F58F5DD0054CB51 /* UserStateProtocol.swift */,
+				1805A4131F58F65B0054CB51 /* LoginUesrState.swift */,
+				1805A4151F58F6AF0054CB51 /* LogoutUserState.swift */,
+				1805A4171F58F8490054CB51 /* LoginContext.swift */,
 			);
 			path = "Simple_2_加强案例";
 			sourceTree = "<group>";
@@ -164,9 +176,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1805A4141F58F65B0054CB51 /* LoginUesrState.swift in Sources */,
+				1805A4121F58F5DD0054CB51 /* UserStateProtocol.swift in Sources */,
 				1805A40C1F58F1A60054CB51 /* PowerOnState.swift in Sources */,
+				1805A4181F58F84A0054CB51 /* LoginContext.swift in Sources */,
 				1805A3F81F58EF2F0054CB51 /* ViewController.swift in Sources */,
 				1805A40A1F58F1550054CB51 /* StateProtocol.swift in Sources */,
+				1805A4161F58F6AF0054CB51 /* LogoutUserState.swift in Sources */,
 				1805A40E1F58F2770054CB51 /* PowerOffState.swift in Sources */,
 				1805A3F61F58EF2F0054CB51 /* AppDelegate.swift in Sources */,
 				1805A4101F58F2F70054CB51 /* TVContorller.swift in Sources */,
